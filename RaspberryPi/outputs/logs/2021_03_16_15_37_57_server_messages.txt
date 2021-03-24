@@ -1,0 +1,19 @@
+2021/03/16 15:37:56.707  INFO: COSMOS Version: 4.4.2
+2021/03/16 15:37:56.707  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/16 15:37:56.725  INFO: Marshal load success: C:/COSMOS/RaspberryPi/outputs/tmp/marshal_aa380f7ab2e43269da003b039c6f208f.bin
+2021/03/16 15:37:56.827  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/16 15:37:56.827  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 15:37:56.828  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 15:37:56.828  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/16 15:37:56.829  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/16 15:37:56.829  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 15:37:56.829  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/16 15:37:56.831  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/16 15:38:18.872  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/16 15:38:18.872  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/16 15:38:18.872  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/16 15:38:18.925  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 15:38:18.935  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/16 15:38:18.935  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 15:38:18.943  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 15:38:19.020  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER

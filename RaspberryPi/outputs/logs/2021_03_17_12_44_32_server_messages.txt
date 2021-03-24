@@ -1,0 +1,62 @@
+2021/03/17 12:44:31.236  INFO: COSMOS Version: 4.4.2
+2021/03/17 12:44:31.237  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/17 12:44:31.252  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/03/17 12:44:31.256  INFO: Marshal file does not exist: C:/COSMOS/RaspberryPi/outputs/tmp/marshal_276d96b0c4d9cd0716b2a2883aac1bc0.bin
+2021/03/17 12:44:31.400  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/17 12:44:31.401  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/17 12:44:31.401  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/03/17 12:44:31.401  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/17 12:44:31.401  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/17 12:44:31.402  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/17 12:44:31.402  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/17 12:44:31.402  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/17 12:44:31.402  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/17 12:44:31.402  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/03/17 12:44:31.402  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/17 12:44:31.403  INFO: RASPBERRYPI_INT Connection Success
+2021/03/17 13:01:09.398  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55714
+2021/03/17 13:01:09.421  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55714
+2021/03/17 13:01:09.422  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55714
+2021/03/17 13:03:37.920  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55736
+2021/03/17 13:03:37.946  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55736
+2021/03/17 13:03:37.957  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55736
+2021/03/17 13:03:56.472  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55738
+2021/03/17 13:05:16.176  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55740
+2021/03/17 13:05:16.187  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55740
+2021/03/17 13:05:16.246  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55740
+2021/03/17 13:05:55.401  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55742
+2021/03/17 13:05:55.406  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55742
+2021/03/17 13:05:55.417  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55742
+2021/03/17 13:06:20.179  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55744
+2021/03/17 13:06:20.190  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55744
+2021/03/17 13:06:20.192  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55744
+2021/03/17 13:08:11.914  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55758
+2021/03/17 13:08:11.933  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55758
+2021/03/17 13:08:11.952  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55758
+2021/03/17 13:08:36.439  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55760
+2021/03/17 13:08:36.457  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55760
+2021/03/17 13:08:36.519  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55760
+2021/03/17 13:09:02.399  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55762
+2021/03/17 13:09:02.407  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55762
+2021/03/17 13:09:02.501  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55762
+2021/03/17 13:09:09.067  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (192.168.1.250):55764
+2021/03/17 13:09:09.079  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55764
+2021/03/17 13:09:09.143  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55764
+2021/03/17 13:09:49.071  INFO: cmd("RASPBERRYPI COLLECT with LENGTH 5, CMD_ID 1, MODE NORMAL")
+2021/03/17 13:09:49.076  INFO: Log File Opened : C:/COSMOS/RaspberryPi/outputs/logs/2021_03_17_13_09_49_cmd.bin
+2021/03/17 13:40:18.067  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (192.168.1.250):55738
+2021/03/17 13:40:18.154  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (192.168.1.250):55738
+2021/03/17 13:41:52.254  INFO: Log File Closed : C:/COSMOS/RaspberryPi/outputs/logs/2021_03_17_13_09_49_cmd.bin
+2021/03/17 13:41:52.355  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/17 13:41:52.355  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/17 13:41:52.355  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/17 13:41:52.407  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/17 13:41:52.418  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/17 13:41:52.418  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/17 13:41:52.425  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/17 13:41:52.503  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/17 13:41:52.514  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/03/17 13:41:52.524  ERROR: Error reading from interface : RASPBERRYPI_INT
+2021/03/17 13:41:52.524  INFO: Connection Lost for RASPBERRYPI_INT: ENOTSOCK : An operation was attempted on something that is not a socket.
+2021/03/17 13:41:52.524  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/03/17 13:41:52.525  INFO: Disconnected from interface RASPBERRYPI_INT

@@ -1,0 +1,29 @@
+2021/03/17 11:09:17.416  INFO: COSMOS Version: 4.4.2
+2021/03/17 11:09:17.416  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/17 11:09:17.437  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/03/17 11:09:17.441  INFO: Marshal load success: C:/COSMOS/RaspberryPi/outputs/tmp/marshal_e695684723f85826337de340a9fdae7a.bin
+2021/03/17 11:09:17.544  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/17 11:09:17.544  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/17 11:09:17.544  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/03/17 11:09:17.544  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/17 11:09:17.544  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/17 11:09:17.545  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/17 11:09:17.545  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/17 11:09:17.545  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/17 11:09:17.547  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/17 11:09:17.547  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/03/17 11:09:17.547  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/17 11:09:17.550  INFO: RASPBERRYPI_INT Connection Success
+2021/03/17 12:11:32.606  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/17 12:11:32.606  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/17 12:11:32.606  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/17 12:11:32.714  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/17 12:11:32.724  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/17 12:11:32.724  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/17 12:11:32.735  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/17 12:11:32.779  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/17 12:11:32.790  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/03/17 12:11:32.796  ERROR: Error reading from interface : RASPBERRYPI_INT
+2021/03/17 12:11:32.796  INFO: Connection Lost for RASPBERRYPI_INT: ENOTSOCK : An operation was attempted on something that is not a socket.
+2021/03/17 12:11:32.796  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/03/17 12:11:32.801  INFO: Disconnected from interface RASPBERRYPI_INT

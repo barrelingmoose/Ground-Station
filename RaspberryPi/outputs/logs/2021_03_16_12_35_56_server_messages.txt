@@ -1,0 +1,49 @@
+2021/03/16 12:35:55.901  INFO: COSMOS Version: 4.4.2
+2021/03/16 12:35:55.901  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/16 12:35:55.911  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/03/16 12:35:55.915  INFO: Marshal load success: C:/COSMOS/RaspberryPi/outputs/tmp/marshal_aa380f7ab2e43269da003b039c6f208f.bin
+2021/03/16 12:35:56.017  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/16 12:35:56.017  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:35:56.018  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/03/16 12:35:56.018  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 12:35:56.018  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/16 12:35:56.019  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/16 12:35:56.019  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:35:56.019  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/16 12:35:56.022  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/16 12:35:56.022  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/03/16 12:35:56.022  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:36:01.050  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:36:06.061  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:36:11.070  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:36:16.080  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:36:21.091  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:36:26.101  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:36:31.110  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:36:36.121  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:36:41.131  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:36:46.142  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:36:51.153  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:36:56.163  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:37:01.175  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:37:06.185  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:37:11.194  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:37:16.204  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:37:21.214  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:37:26.222  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:37:31.232  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:37:36.243  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:37:41.253  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 12:37:43.114  INFO: User disconnecting interface RASPBERRYPI_INT
+2021/03/16 12:37:43.114  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/03/16 12:37:43.117  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/03/16 12:37:43.125  INFO: Disconnected from interface RASPBERRYPI_INT
+2021/03/16 12:51:23.372  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/16 12:51:23.372  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/16 12:51:23.372  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/16 12:51:23.458  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 12:51:23.469  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/16 12:51:23.469  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:51:23.474  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:51:23.556  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:51:23.566  INFO: Disconnected from interface RASPBERRYPI_INT

@@ -1,0 +1,37 @@
+2021/03/16 14:32:09.495  INFO: COSMOS Version: 4.4.2
+2021/03/16 14:32:09.495  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/16 14:32:09.497  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/03/16 14:32:09.500  INFO: Marshal load success: C:/COSMOS/RaspberryPi/outputs/tmp/marshal_aa380f7ab2e43269da003b039c6f208f.bin
+2021/03/16 14:32:09.602  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/16 14:32:09.602  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 14:32:09.603  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/03/16 14:32:09.603  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 14:32:09.603  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/16 14:32:09.603  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/16 14:32:09.604  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 14:32:09.604  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/16 14:32:09.605  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/03/16 14:32:09.605  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 14:32:09.615  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/16 14:32:14.651  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 14:32:19.662  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 14:32:24.673  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 14:32:29.683  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 14:32:34.693  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 14:32:39.704  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 14:32:44.715  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 14:32:49.726  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 14:32:54.736  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Connect timeout
+2021/03/16 14:32:56.444  INFO: User disconnecting interface RASPBERRYPI_INT
+2021/03/16 14:32:56.444  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/03/16 14:32:56.453  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/03/16 14:32:56.454  INFO: Disconnected from interface RASPBERRYPI_INT
+2021/03/16 14:35:32.541  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/16 14:35:32.541  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/16 14:35:32.541  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/16 14:35:32.638  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 14:35:32.648  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/16 14:35:32.648  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 14:35:32.653  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 14:35:32.733  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 14:35:32.744  INFO: Disconnected from interface RASPBERRYPI_INT
