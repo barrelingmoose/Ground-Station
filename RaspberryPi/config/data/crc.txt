@@ -7,7 +7,7 @@ USER_MODIFIED
 "config/targets/COSMOS/cmd_tlm/cosmos_server_tlm.txt" 0x00000000
 "config/targets/COSMOS/cmd_tlm_server.txt" 0x0219BB3B
 "config/targets/COSMOS/target.txt" 0x684E5E6E
-"config/targets/RaspberryPi/cmd_tlm/cmd.txt" 0x5EAFABEB
+"config/targets/RaspberryPi/cmd_tlm/cmd.txt" 0xB1088B51
 "config/targets/RaspberryPi/cmd_tlm/tlm.txt" 0x70FADD3F
 "config/targets/RaspberryPi/cmd_tlm_server.txt" 0x3DEB48D7
 "config/targets/RaspberryPi/target.txt" 0x43C0FAE0
