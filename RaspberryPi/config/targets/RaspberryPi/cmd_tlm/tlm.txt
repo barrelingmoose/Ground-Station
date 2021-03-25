@@ -1,7 +1,8 @@
 TELEMETRY RASPBERRYPI ACCEL BIG_ENDIAN "Temperature Telemetry"
   ITEM LENGTH 0 32 UINT "Packet Length"
   ID_ITEM TLM_ID 32 32 INT 3 "Message Identifier"
-  APPEND_ITEM x_acceleration 0 STRING "x_axis acceleration in G's"
+  APPEND_ITEM x_acceleration 32 FLOAT "x_axis acceleration in G's"
   #APPEND_ITEM y_acceleration 32 FLOAT "y_axis acceleration in G's"
   #APPEND_ITEM z_acceleration 32 FLOAT "z_axis acceleration in G's"
   #APPEND_ITEM test 8 UINT "test value"
+  ALLOW_SHORT
