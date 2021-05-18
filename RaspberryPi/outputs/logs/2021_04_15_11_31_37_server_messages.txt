@@ -1,0 +1,61 @@
+2021/04/15 11:31:35.999  INFO: COSMOS Version: 4.4.2
+2021/04/15 11:31:35.999  INFO: Processing CmdTlmServer configuration in file: C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/04/15 11:31:36.024  INFO: Processing CmdTlmServer configuration in file: C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/04/15 11:31:36.029  INFO: Marshal file does not exist: C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/outputs/tmp/marshal_65b1a8bcfa17cbb0fdd96e8c5da77608.bin
+2021/04/15 11:31:36.344  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/04/15 11:31:36.344  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:31:36.344  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/04/15 11:31:36.345  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/04/15 11:31:36.345  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/04/15 11:31:36.345  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/04/15 11:31:36.345  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:31:36.345  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/04/15 11:31:36.346  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/04/15 11:31:36.346  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/04/15 11:31:36.346  INFO: Connecting to RASPBERRYPI_INT...
+2021/04/15 11:31:36.348  INFO: RASPBERRYPI_INT Connection Success
+2021/04/15 11:31:42.065  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (192.168.1.250):49966
+2021/04/15 11:31:42.221  INFO: Log File Opened : C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/outputs/logs/2021_04_15_11_31_42_tlm.bin
+2021/04/15 11:31:49.407  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (192.168.1.250):49966
+2021/04/15 11:31:49.416  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (192.168.1.250):49966
+2021/04/15 11:32:25.676  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (192.168.1.250):49968
+2021/04/15 11:32:27.268  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51517
+2021/04/15 11:32:36.160  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (192.168.1.250):49968
+2021/04/15 11:32:36.245  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (192.168.1.250):49968
+2021/04/15 11:33:36.108  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51517
+2021/04/15 11:33:36.207  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51517
+2021/04/15 11:33:41.141  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51521
+2021/04/15 11:33:48.234  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51521
+2021/04/15 11:33:48.284  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51521
+2021/04/15 11:36:24.447  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (192.168.1.250):46870
+2021/04/15 11:36:34.801  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (192.168.1.250):46870
+2021/04/15 11:36:34.896  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (192.168.1.250):46870
+2021/04/15 11:36:44.106  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51547
+2021/04/15 11:37:00.691  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (192.168.1.250):46872
+2021/04/15 11:37:11.190  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (192.168.1.250):46872
+2021/04/15 11:37:11.238  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (192.168.1.250):46872
+2021/04/15 11:38:11.159  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51547
+2021/04/15 11:38:11.177  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51547
+2021/04/15 11:38:16.173  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51553
+2021/04/15 11:39:16.198  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51553
+2021/04/15 11:39:16.247  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51553
+2021/04/15 11:39:21.212  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51559
+2021/04/15 11:40:21.248  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51559
+2021/04/15 11:40:21.299  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51559
+2021/04/15 11:40:26.258  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51561
+2021/04/15 11:40:35.429  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51561
+2021/04/15 11:40:35.475  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51561
+2021/04/15 11:40:38.875  INFO: Log File Closed : C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/outputs/logs/2021_04_15_11_31_42_tlm.bin
+2021/04/15 11:40:38.976  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/04/15 11:40:38.976  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/04/15 11:40:38.976  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/04/15 11:40:39.009  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/04/15 11:40:39.019  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/04/15 11:40:39.019  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:40:39.034  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:40:39.104  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:40:39.115  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/04/15 11:40:39.115  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/04/15 11:40:39.115  INFO: Connection Lost for RASPBERRYPI_INT
+2021/04/15 11:40:39.211  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/04/15 11:40:39.223  INFO: Disconnected from interface RASPBERRYPI_INT
