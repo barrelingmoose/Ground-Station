@@ -1,9 +1,14 @@
 # COSMOS-Config
 Placeholder Text
 
-# Installed Python Packages 
+# Software Packages 
+## Python Libraries 
 * pip 
 * vnpy
+* time 
+* csv 
+* socket 
+* struct
 
 # Operating Systems 
 Ubuntu 20.04 LTS
