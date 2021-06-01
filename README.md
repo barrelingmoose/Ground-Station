@@ -11,7 +11,15 @@ Placeholder Text
 * struct
 
 ## Linux Packages
-
+* ssh
+* sshpass
+* bash 
+* build-essential
+* bundler
+* curl
+* init
+* qt4
+* ruby
 
 # Operating Systems 
 Ubuntu 20.04 LTS
