@@ -1,3 +1,0 @@
-INTERFACE COSMOSINT cmd_tlm_server_interface.rb
-  TARGET COSMOS
-  DISABLE_DISCONNECT
