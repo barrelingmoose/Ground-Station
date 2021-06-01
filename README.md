@@ -1,8 +1,13 @@
-# COSMOS-Config
+# Ground Station
 Placeholder Text
 
 # Software Packages 
-## Python Libraries 
+Placeholder Text 
+
+## COSMOS Configuration 
+Placeholder Text 
+
+### Python Libraries 
 * pip 
 * vnpy
 * time 
@@ -10,7 +15,7 @@ Placeholder Text
 * socket 
 * struct
 
-## Linux Packages
+### Linux Packages
 * ssh
 * sshpass
 * bash 
@@ -20,6 +25,9 @@ Placeholder Text
 * init
 * qt4
 * ruby
+
+## Flight Computer Configuration
+Placeholder Text 
 
 # Operating Systems 
 Ubuntu 20.04 LTS
