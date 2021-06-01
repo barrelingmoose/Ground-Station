@@ -2,6 +2,8 @@
 Placeholder Text
 
 # Installed Python Packages 
+*pip 
+*vnpy
 
 # Operating Systems 
 Ubuntu 20.04 LTS
