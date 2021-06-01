@@ -28,7 +28,7 @@ echo "Variables have been established"
 echo "Preparing COSMOS"
 sleep 1
 # Navigate to the COSMOS Launcher executable file
-cd ~/COSMOS/COSMOS-Config/RaspberryPi/tools
+cd ~/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/tools
 # Execute CmdTlmServer tool
 ./CmdTlmServer &
 # Simultaneously execute and start TlmGrapher tool with the specified configuration file
@@ -59,7 +59,7 @@ do
   done
 done
 # Navigate to desired data collection folder
-cd ~/COSMOS-Data
+cd ~/Ground-Station/COSMOS/COSMOS-Data
 # SCP collected data into current directory
 echo " "
 echo "Collecting Data from Flight Computer"
