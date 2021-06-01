@@ -4,7 +4,7 @@ Placeholder Text
 # Software Packages 
 Placeholder Text 
 
-## COSMOS Configuration 
+## COSMOS 
 Placeholder Text 
 
 ### Python Libraries 
@@ -26,7 +26,7 @@ Placeholder Text
 * qt4
 * ruby
 
-## Flight Computer Configuration
+## Flight Computer
 Placeholder Text 
 
 # Operating Systems 
