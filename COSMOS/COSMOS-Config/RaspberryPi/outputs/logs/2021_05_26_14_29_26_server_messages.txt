@@ -1,0 +1,37 @@
+2021/05/26 14:29:25.404  INFO: COSMOS Version: 4.5.0
+2021/05/26 14:29:25.404  INFO: Processing CmdTlmServer configuration in file: /home/mas/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/05/26 14:29:25.416  INFO: Processing CmdTlmServer configuration in file: /home/mas/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/05/26 14:29:25.420  INFO: Marshal load success: /home/mas/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_a1cad834a7ddb4dc3137422ec1dd87ab.bin
+2021/05/26 14:29:25.521  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/05/26 14:29:25.521  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/05/26 14:29:25.521  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/05/26 14:29:25.521  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/05/26 14:29:25.521  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/05/26 14:29:25.521  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/05/26 14:29:25.521  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/05/26 14:29:25.525  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/05/26 14:29:25.525  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/05/26 14:29:25.615  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/05/26 14:29:25.616  INFO: Connecting to RASPBERRYPI_INT...
+2021/05/26 14:29:25.616  INFO: RASPBERRYPI_INT Connection Success
+2021/05/26 14:29:25.621  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51912
+2021/05/26 14:29:30.361  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.92.89):47146
+2021/05/26 14:29:30.437  INFO: Log File Opened : /home/mas/COSMOS-Config/RaspberryPi/outputs/logs/2021_05_26_14_29_30_tlm.bin
+2021/05/26 14:30:00.430  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (10.1.92.89):47146
+2021/05/26 14:30:00.431  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.92.89):47146
+2021/05/26 14:30:26.591  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51912
+2021/05/26 14:30:26.689  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51912
+2021/05/26 14:30:31.229  INFO: Log File Closed : /home/mas/COSMOS-Config/RaspberryPi/outputs/logs/2021_05_26_14_29_30_tlm.bin
+2021/05/26 14:30:31.329  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/05/26 14:30:31.329  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/05/26 14:30:31.329  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/05/26 14:30:31.400  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/05/26 14:30:31.400  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/05/26 14:30:31.400  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/05/26 14:30:31.400  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/05/26 14:30:31.501  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/05/26 14:30:31.501  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/05/26 14:30:31.501  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/05/26 14:30:31.501  INFO: Connection Lost for RASPBERRYPI_INT
+2021/05/26 14:30:31.602  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/05/26 14:30:31.612  INFO: Disconnected from interface RASPBERRYPI_INT

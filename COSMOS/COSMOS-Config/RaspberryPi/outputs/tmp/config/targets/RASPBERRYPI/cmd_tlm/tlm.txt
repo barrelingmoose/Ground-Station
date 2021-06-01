@@ -1,0 +1,89 @@
+TELEMETRY RASPBERRYPI YAW BIG_ENDIAN "Rotation Angle Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM X_TLM_ID 32 32 INT 3 "Message Identifier"
+  APPEND_ITEM YAW 32 FLOAT "Yaw Angle in Degrees"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI PITCH BIG_ENDIAN "Rotation Angle Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Y_TLM_ID 32 32 INT 4 "Message Identifier"
+  APPEND_ITEM PITCH 32 FLOAT "Pitch Angle in Degrees"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI ROLL BIG_ENDIAN "Rotation Angle Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Z_TLM_ID 32 32 INT 5 "Message Identifier"
+  APPEND_ITEM ROLL 32 FLOAT "Roll Angle in Degrees"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI X_ACCEL BIG_ENDIAN "Acceleration Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM X_TLM_ID 32 32 INT 6 "Message Identifier"
+  APPEND_ITEM X_ACCEL 32 FLOAT "X Acceleration in G's"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Y_ACCEL BIG_ENDIAN "Acceleration Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Y_TLM_ID 32 32 INT 7 "Message Identifier"
+  APPEND_ITEM Y_ACCEL 32 FLOAT "Y Acceleration in G's"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Z_ACCEL BIG_ENDIAN "Acceleration Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Z_TLM_ID 32 32 INT 8 "Message Identifier"
+  APPEND_ITEM Z_ACCEL 32 FLOAT "Z Acceleration in G's"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI X_RATE BIG_ENDIAN "Angular Rate Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM X_TLM_ID 32 32 INT 9 "Message Identifier"
+  APPEND_ITEM X_RATE 32 FLOAT "Yaw Angular Rate in Degrees/Second"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Y_RATE BIG_ENDIAN "Angular Rate Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Y_TLM_ID 32 32 INT 10 "Message Identifier"
+  APPEND_ITEM Y_RATE 32 FLOAT "Pitch Angular Rate in Degrees/Second"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Z_RATE BIG_ENDIAN "Angular Rate Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Z_TLM_ID 32 32 INT 11 "Message Identifier"
+  APPEND_ITEM Z_RATE 32 FLOAT "Roll Angular Rate in Degrees/Second"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI X_MAG BIG_ENDIAN "Magnetic Field Reference Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM X_TLM_ID 32 32 INT 12 "Message Identifier"
+  APPEND_ITEM X_MAG 32 FLOAT "Magnetic Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Y_MAG BIG_ENDIAN "Magnetic Field Reference Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Y_TLM_ID 32 32 INT 13 "Message Identifier"
+  APPEND_ITEM Y_MAG 32 FLOAT "Magnetic Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Z_MAG BIG_ENDIAN "Magnetic Field Reference Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Z_TLM_ID 32 32 INT 14 "Message Identifier"
+  APPEND_ITEM Z_MAG 32 FLOAT "Magnetic Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI X_GRAV BIG_ENDIAN "Gravity Field Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM X_TLM_ID 32 32 INT 15 "Message Identifier"
+  APPEND_ITEM X_GRAV 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Y_GRAV BIG_ENDIAN "Acceleration Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Y_TLM_ID 32 32 INT 16 "Message Identifier"
+  APPEND_ITEM Y_GRAV 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Z_GRAV BIG_ENDIAN "Gravity Field Reference Telemetry"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Z_TLM_ID 32 32 INT 17 "Message Identifier"
+  APPEND_ITEM Z_GRAV 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT

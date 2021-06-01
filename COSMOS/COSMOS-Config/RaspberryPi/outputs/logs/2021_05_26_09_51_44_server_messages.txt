@@ -1,0 +1,33 @@
+2021/05/26 09:51:43.199  INFO: COSMOS Version: 4.5.0
+2021/05/26 09:51:43.199  INFO: Processing CmdTlmServer configuration in file: /home/mas/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/05/26 09:51:43.200  INFO: Processing CmdTlmServer configuration in file: /home/mas/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/05/26 09:51:43.202  INFO: Marshal load success: /home/mas/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_a1cad834a7ddb4dc3137422ec1dd87ab.bin
+2021/05/26 09:51:43.304  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/05/26 09:51:43.304  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/05/26 09:51:43.304  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/05/26 09:51:43.307  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/05/26 09:51:43.308  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/05/26 09:51:43.308  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/05/26 09:51:43.308  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/05/26 09:51:43.308  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/05/26 09:51:43.308  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/05/26 09:51:43.308  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/05/26 09:51:43.308  INFO: Connecting to RASPBERRYPI_INT...
+2021/05/26 09:51:43.308  INFO: RASPBERRYPI_INT Connection Success
+2021/05/26 09:51:44.937  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):35630
+2021/05/26 09:51:48.308  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):35632
+2021/05/26 09:51:54.069  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/05/26 09:51:54.069  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/05/26 09:51:54.069  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/05/26 09:51:54.070  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):35630
+2021/05/26 09:51:54.070  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):35632
+2021/05/26 09:51:54.141  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/05/26 09:51:54.150  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/05/26 09:51:54.150  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/05/26 09:51:54.151  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/05/26 09:51:54.191  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/05/26 09:51:54.191  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/05/26 09:51:54.192  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/05/26 09:51:54.192  INFO: Connection Lost for RASPBERRYPI_INT
+2021/05/26 09:51:54.293  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/05/26 09:51:54.293  INFO: Disconnected from interface RASPBERRYPI_INT

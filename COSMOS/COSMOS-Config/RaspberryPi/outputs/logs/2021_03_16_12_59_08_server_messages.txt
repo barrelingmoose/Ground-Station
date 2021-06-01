@@ -1,0 +1,69 @@
+2021/03/16 12:59:07.170  INFO: COSMOS Version: 4.4.2
+2021/03/16 12:59:07.170  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/16 12:59:07.180  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/03/16 12:59:07.186  INFO: Marshal load success: C:/COSMOS/RaspberryPi/outputs/tmp/marshal_aa380f7ab2e43269da003b039c6f208f.bin
+2021/03/16 12:59:07.288  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/16 12:59:07.288  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:59:07.289  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/03/16 12:59:07.289  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 12:59:07.289  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/16 12:59:07.290  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/16 12:59:07.290  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:59:07.290  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/16 12:59:07.290  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/16 12:59:07.290  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/03/16 12:59:07.290  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:59:07.294  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Invalid hostname: 192.168.1.250/24
+2021/03/16 12:59:07.294  ERROR: RuntimeError : Invalid hostname: 192.168.1.250/24
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:48:in `rescue in initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:43:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/03/16 12:59:12.353  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:59:12.353  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Invalid hostname: 192.168.1.250/24
+2021/03/16 12:59:12.353  ERROR: RuntimeError : Invalid hostname: 192.168.1.250/24
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:48:in `rescue in initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:43:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/03/16 12:59:17.364  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:59:17.364  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Invalid hostname: 192.168.1.250/24
+2021/03/16 12:59:17.364  ERROR: RuntimeError : Invalid hostname: 192.168.1.250/24
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:48:in `rescue in initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:43:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/03/16 12:59:22.373  INFO: Connecting to RASPBERRYPI_INT...
+2021/03/16 12:59:22.373  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Invalid hostname: 192.168.1.250/24
+2021/03/16 12:59:22.373  ERROR: RuntimeError : Invalid hostname: 192.168.1.250/24
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:48:in `rescue in initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/tcpip_client_stream.rb:43:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/tcpip_client_interface.rb:50:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/03/16 12:59:24.404  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/16 12:59:24.404  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/16 12:59:24.404  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/16 12:59:24.447  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/16 12:59:24.457  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/16 12:59:24.457  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:59:24.461  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:59:24.553  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/16 12:59:24.563  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/03/16 12:59:24.564  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/03/16 12:59:24.574  INFO: Disconnected from interface RASPBERRYPI_INT

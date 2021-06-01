@@ -1,0 +1,42 @@
+2021/04/15 11:28:30.737  INFO: COSMOS Version: 4.4.2
+2021/04/15 11:28:30.737  INFO: Processing CmdTlmServer configuration in file: C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/04/15 11:28:30.757  INFO: Processing CmdTlmServer configuration in file: C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/04/15 11:28:30.762  INFO: Marshal file does not exist: C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/outputs/tmp/marshal_dbec69d75e7debf77454db3360b1bf19.bin
+2021/04/15 11:28:31.044  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/04/15 11:28:31.044  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:28:31.045  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/04/15 11:28:31.045  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/04/15 11:28:31.045  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/04/15 11:28:31.045  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/04/15 11:28:31.045  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:28:31.045  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/04/15 11:28:31.046  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/04/15 11:28:31.046  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/04/15 11:28:31.046  INFO: Connecting to RASPBERRYPI_INT...
+2021/04/15 11:28:31.048  INFO: RASPBERRYPI_INT Connection Success
+2021/04/15 11:28:33.911  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (192.168.1.250):49962
+2021/04/15 11:28:33.946  INFO: Log File Opened : C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/outputs/logs/2021_04_15_11_28_33_tlm.bin
+2021/04/15 11:28:44.382  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (192.168.1.250):49962
+2021/04/15 11:28:44.418  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (192.168.1.250):49962
+2021/04/15 11:29:29.926  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (192.168.1.250):49964
+2021/04/15 11:29:31.379  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51500
+2021/04/15 11:29:40.562  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (192.168.1.250):49964
+2021/04/15 11:29:40.602  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (192.168.1.250):49964
+2021/04/15 11:30:40.491  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51500
+2021/04/15 11:30:40.570  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51500
+2021/04/15 11:30:45.508  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51502
+2021/04/15 11:31:24.487  INFO: Log File Closed : C:/Users/ck620/Documents/Work/Programming/COSMOS Config/RaspberryPi/outputs/logs/2021_04_15_11_28_33_tlm.bin
+2021/04/15 11:31:24.587  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/04/15 11:31:24.588  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/04/15 11:31:24.588  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/04/15 11:31:24.603  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51502
+2021/04/15 11:31:24.642  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/04/15 11:31:24.653  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/04/15 11:31:24.653  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:31:24.662  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:31:24.738  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/04/15 11:31:24.749  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/04/15 11:31:24.749  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/04/15 11:31:24.749  INFO: Connection Lost for RASPBERRYPI_INT
+2021/04/15 11:31:24.846  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/04/15 11:31:24.846  INFO: Disconnected from interface RASPBERRYPI_INT

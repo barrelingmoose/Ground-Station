@@ -1,0 +1,161 @@
+Exception:
+Error : Target folder must be uppercase: 'RaspberryPi'
+
+Parsed output in C:/COSMOS/RaspberryPiDemo/outputs/tmp/config/system/system.txt
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:427:in `block (2 levels) in process_targets'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:416:in `each'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:416:in `block in process_targets'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/config/config_parser.rb:200:in `parse_loop'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/config/config_parser.rb:200:in `parse_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:404:in `process_targets'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:392:in `block in process_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:206:in `process_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:644:in `reset_variables'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:100:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:184:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:184:in `block in instance'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:183:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/system/system.rb:183:in `instance'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/utilities/classification_banner.rb:18:in `add_classification_banner'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:66:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:25:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:316:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:316:in `block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:306:in `run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:191:in `block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:180:in `run'
+C:/COSMOS/RaspberryPiDemo/tools/Launcher:15:in `block in <main>'
+C:/COSMOS/RaspberryPiDemo/tools/tool_launch.rb:16:in `tool_launch'
+C:/COSMOS/RaspberryPiDemo/tools/Launcher:13:in `<main>'
+
+Caller Backtrace:
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:452:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:425:in `create_log_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:482:in `write_exception_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:328:in `rescue in block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:312:in `block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:306:in `run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:191:in `block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:180:in `run'
+C:/COSMOS/RaspberryPiDemo/tools/Launcher:15:in `block in <main>'
+C:/COSMOS/RaspberryPiDemo/tools/tool_launch.rb:16:in `tool_launch'
+C:/COSMOS/RaspberryPiDemo/tools/Launcher:13:in `<main>'
+
+Ruby Version: ruby 2.5.8 (2020-03-31 patchlevel 224) [x64-mingw32]
+Rubygems Version: 3.1.4
+Cosmos Version: 4.4.2
+Cosmos::PATH: C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2
+Cosmos::USERPATH: C:/COSMOS/RaspberryPiDemo
+
+Environment:
+RUBYOPT: -rC:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby/2.5.0/bundler/setup
+RUBYLIB: C:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby/2.5.0
+GEM_PATH: C:\COSMOS\Vendor\Ruby\lib\ruby\gems\2.5.0
+GEMRC: C:\COSMOS\Vendor\Ruby\lib\ruby\gems\etc\gemrc
+RI_DEVKIT: C:\COSMOS\Vendor\Devkit\
+GEM_HOME: C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0
+PATH: C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5-x64-mingw32/lib/../bin;C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5-x64-mingw32/lib/../lib/2.5;C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5-x64-mingw32/lib/../bin/2.5;C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib/../qtbin;C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib/../qtbin/plugins;C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/../bin;C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/bin;C:\COSMOS\Vendor\Ruby\bin;C:\COSMOS\Vendor\Devkit\bin;C:\COSMOS\Vendor\Devkit\mingw\bin;C:\COSMOS\Vendor\wkhtmltopdf;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;D:\MATLAB\R2019b\runtime\win64;D:\MATLAB\R2019b\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Ruby27-x64\bin;C:\Users\ck620\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ck620\AppData\Local\Programs\Python\Python36\;C:\Users\ck620\AppData\Local\Microsoft\WindowsApps;C:\Users\ck620\AppData\Local\Programs\Microsoft VS Code\bin;C:\cygwin64\bin;C:\Users\ck620\AppData\Local\GitHubDesktop\bin;C:\Users\ck620\AppData\Local\atom\bin
+
+Ruby Path:
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  C:/COSMOS/RaspberryPiDemo/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/extensions/x64-mingw32/2.5.0/cosmos-4.4.2
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/snmp-1.3.2/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/rubyzip-1.3.0/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/rdoc-6.0.1.1/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/rack-2.2.3/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5-x64-mingw32/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/puma-3.12.6/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/extensions/x64-mingw32/2.5.0/puma-3.12.6
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/pry-doc-0.13.5/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/yard-0.9.25/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/pry-0.13.1/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/opengl-bindings-1.6.10/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/nokogiri-1.10.10-x64-mingw32/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/mini_portile2-2.4.0/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/json-2.1.0/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/extensions/x64-mingw32/2.5.0/json-2.1.0
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/coderay-1.1.3/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/rake-13.0.1/lib
+  C:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby/2.5.0
+  C:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby/2.5.0/x64-msvcrt
+  C:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby
+  C:/COSMOS/Vendor/Ruby/lib/ruby/vendor_ruby/2.5.0
+  C:/COSMOS/Vendor/Ruby/lib/ruby/vendor_ruby/2.5.0/x64-msvcrt
+  C:/COSMOS/Vendor/Ruby/lib/ruby/vendor_ruby
+  C:/COSMOS/Vendor/Ruby/lib/ruby/2.5.0
+  C:/COSMOS/Vendor/Ruby/lib/ruby/2.5.0/x64-mingw32
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5-x64-mingw32/lib/../lib/2.5
+
+Gems:
+did_you_mean 1.2.0 ruby
+bundler 2.1.4 ruby
+rake 13.0.1 ruby
+coderay 1.1.3 ruby
+httpclient 2.8.3 ruby
+json 2.1.0 ruby
+mini_portile2 2.4.0 ruby
+nokogiri 1.10.10 x64-mingw32
+opengl-bindings 1.6.10 ruby
+method_source 1.0.0 ruby
+pry 0.13.1 ruby
+yard 0.9.25 ruby
+pry-doc 0.13.5 ruby
+puma 3.12.6 ruby
+qtbindings-qt 4.8.6.4 x64-mingw32
+qtbindings 4.8.6.5 x64-mingw32
+rack 2.2.3 ruby
+rdoc 6.0.1.1 ruby
+rubyzip 1.3.0 ruby
+snmp 1.3.2 ruby
+uuidtools 2.2.0 ruby
+cosmos 4.4.2 ruby
+
+All Threads Backtraces:
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:518:in `backtrace'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:518:in `block (2 levels) in write_exception_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:517:in `each'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:517:in `block in write_exception_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:452:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:425:in `create_log_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:482:in `write_exception_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:328:in `rescue in block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:312:in `block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:306:in `run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:191:in `block in run'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/launcher/launcher.rb:180:in `run'
+C:/COSMOS/RaspberryPiDemo/tools/Launcher:15:in `block in <main>'
+C:/COSMOS/RaspberryPiDemo/tools/tool_launch.rb:16:in `tool_launch'
+C:/COSMOS/RaspberryPiDemo/tools/Launcher:13:in `<main>'
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/core_ext/io.rb:48:in `select'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/core_ext/io.rb:48:in `fast_select'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/core_ext/io.rb:95:in `select'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/utilities/sleeper.rb:27:in `sleep'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:489:in `block (2 levels) in redirect_io'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:474:in `loop'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:474:in `block in redirect_io'
+
+
+
