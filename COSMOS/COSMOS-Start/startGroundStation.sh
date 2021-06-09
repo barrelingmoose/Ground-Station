@@ -22,6 +22,7 @@ get_data='/home/pi/COSMOS/IMU_output.csv'
 sleep 1
 echo "Variables have been established"
 
+time_stamp=$(date +"%m-%d-%Y-%H:%M")
 ###############################################################################################
 # START COSMOS
 
@@ -49,7 +50,7 @@ spin[0]="-"
 spin[1]="\\"
 spin[2]="|"
 spin[3]="/"
-echo -n "[Running] ${spin[0]}"
+echo -n "[Running]... ${spin[0]}"
 while [ -d /proc/$pid ]
 do
   for i in "${spin[@]}"
@@ -64,6 +65,7 @@ cd ~/Ground-Station/COSMOS/COSMOS-Data
 echo " "
 echo "Collecting Data from Flight Computer"
 sshpass -p "$fc_pass" scp $username@$ip_address:$get_data .
-echo "Data Collected. Exiting Terminal"
-
+echo "Data Collected."
+pwd
+mv "IMU_output.csv" "log/IMU_output_${time_stamp}.csv"
 ###############################################################################################
