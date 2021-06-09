@@ -66,6 +66,5 @@ echo " "
 echo "Collecting Data from Flight Computer"
 sshpass -p "$fc_pass" scp $username@$ip_address:$get_data .
 echo "Data Collected."
-pwd
 mv "IMU_output.csv" "log/IMU_output_${time_stamp}.csv"
 ###############################################################################################
