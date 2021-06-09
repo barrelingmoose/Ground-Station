@@ -22,7 +22,7 @@ get_data='/home/pi/COSMOS/IMU_output.csv'
 sleep 1
 echo "Variables have been established"
 
-time_stamp=$(date +"%m-%d-%Y-%H:%M")
+time_stamp=$(date +"%m-%d-%Y-%H.%M")
 ###############################################################################################
 # START COSMOS
 
