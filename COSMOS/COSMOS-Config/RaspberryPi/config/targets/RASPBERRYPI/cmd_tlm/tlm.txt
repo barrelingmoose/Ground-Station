@@ -87,3 +87,27 @@ TELEMETRY RASPBERRYPI Z_GRAV BIG_ENDIAN "Gravity Field Reference Telemetry"
   ID_ITEM Z_TLM_ID 32 32 INT 17 "Message Identifier"
   APPEND_ITEM Z_GRAV 32 FLOAT "Gravity Field Reference"
   ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Q1 BIG_ENDIAN "Quaternion 1"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Q1_TLM_ID 32 32 INT 18 "Message Identifier"
+  APPEND_ITEM Q1 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Q2 BIG_ENDIAN "Quaternion 2"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Q2_TLM_ID 32 32 INT 19 "Message Identifier"
+  APPEND_ITEM Q2 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Q3 BIG_ENDIAN "Quaternion 3"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Q3_TLM_ID 32 32 INT 20 "Message Identifier"
+  APPEND_ITEM Q3 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT
+
+TELEMETRY RASPBERRYPI Q4 BIG_ENDIAN "Quaternion 4"
+  ITEM LENGTH 0 32 UINT "Packet Length"
+  ID_ITEM Q4_TLM_ID 32 32 INT 21 "Message Identifier"
+  APPEND_ITEM Q4 32 FLOAT "Gravity Field Reference"
+  ALLOW_SHORT
