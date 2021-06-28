@@ -5,7 +5,7 @@ import csv
 import socket
 import struct
 
-SERVER = '10.4.148.152'
+SERVER = '10.1.93.3'
 PORT = 6787
 HEADER = 64
 FORMAT = 'utf-8'
@@ -20,7 +20,7 @@ stop = time.time()
 # Initializes the counter to be compared to TOF
 difference = stop - start
 first_packet = 3
-last_packet = 18
+last_packet = 22
 PACKET_ID = [packet for packet in range(first_packet,last_packet)]
 # Instatiates VnSensor Class Object
 sensor = VnSensor()
@@ -41,7 +41,7 @@ with open(csvoutput, 'w') as IMU_data:
     # Establishing headers for the collected data
     fields = ["Yaw", "Pitch", "Roll", "X Accel", "Y Accel", "Z Accel", "X Rate",
               "Y Rate", "Z Rate", "Magnetic X", "Magnetic Y", "Magnetic Z",
-              "Gravity X", "Gravity Y", "Gravity Z"]
+              "Gravity X", "Gravity Y", "Gravity Z", "Q1", "Q2", "Q3", "Q4"]
     # Writing the headers to the file
     IMU_writer = csv.writer(IMU_data)
     IMU_writer.writerow(fields)
@@ -54,18 +54,21 @@ with open(csvoutput, 'w') as IMU_data:
         # Initializing data registers
         outputs = sensor.read_yaw_pitch_roll_magnetic_acceleration_and_angular_rates()
         inputs = sensor.read_magnetic_and_gravity_reference_vectors()
+        quaternion_read = sensor.read_quaternion_magnetic_acceleration_and_angular_rates()
         # List holding the information from data collection
         ypr = outputs.yaw_pitch_roll
         accel = outputs.accel
         gyro = outputs.gyro
         mag = inputs.mag_ref
         grav = inputs.acc_ref
+        quaternions = quaternion_read.quat
         rows = []
         functions.data_set(ypr, rows)
         functions.data_set(accel, rows)
         functions.data_set(gyro, rows)
         functions.data_set(mag, rows)
         functions.data_set(grav, rows)
+        functions.data_set(quaternions, rows)
         # Writing list to csv file
         IMU_writer.writerow(rows)
         yaw = functions.send_data(rows, 0, PACKET_ID,client)
@@ -83,5 +86,9 @@ with open(csvoutput, 'w') as IMU_data:
         x_grav = functions.send_data(rows, 12, PACKET_ID, client)
         y_grav = functions.send_data(rows, 13, PACKET_ID, client)
         z_grav = functions.send_data(rows, 14, PACKET_ID, client)
+        Q1 = functions.send_data(rows, 15, PACKET_ID, client)
+        Q2 = functions.send_data(rows, 16, PACKET_ID, client)
+        Q3 = functions.send_data(rows, 17, PACKET_ID, client)
+        Q4 = functions.send_data(rows, 18, PACKET_ID, client)
         #time.sleep(0.1)
 sensor.disconnect()
