@@ -12,13 +12,13 @@ echo "Running startGroundStation.sh"
 # username to flight computer
 username=pi
 # ip address to flight computer
-ip_address=10.1.92.89
+ip_address=10.1.95.35
 # command to run the flight computers main script
 run_fc_script='python3 COSMOS/main.py'
 # password to flight computer for sshpass
 fc_pass=Mas2.0
 # directory where data is stored on flight computer
-get_data='/home/pi/COSMOS/IMU_output.csv'
+get_data='/home/pi/IMU_output.csv'
 sleep 1
 echo "Variables have been established"
 
