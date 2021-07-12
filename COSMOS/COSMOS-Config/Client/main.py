@@ -1,3 +1,13 @@
+################################################################################
+# Filename:    main.py
+# Description: Operates Raspberry Pi Flight Computer
+# Authors:     Chandler Kramer
+#              Thomas Bennett
+################################################################################
+
+################################################################################
+# Imports
+################################################################################
 from vnpy import *
 from IMU_Functions import *
 import time
@@ -5,25 +15,42 @@ import csv
 import socket
 import struct
 
+################################################################################
+# Establishing Global Variables
+################################################################################
+
+# Serial Port and Server related variables
 SERVER = '10.1.93.3'
 PORT = 6787
 HEADER = 64
 FORMAT = 'utf-8'
 ADDR = (SERVER, PORT)
 USB_PORT = '/dev/ttyUSB0'
+
 # Time of Flight in Seconds
 TOF = 30
+
 # Initializes the start/reference time
 start = time.time()
+
 # Initializes the stop time
 stop = time.time()
+
 # Initializes the counter to be compared to TOF
 difference = stop - start
+
+# Setting Packet IDs
 first_packet = 3
 last_packet = 22
 PACKET_ID = [packet for packet in range(first_packet,last_packet)]
+
+################################################################################
+# Establishing Sensor Connections
+################################################################################
+
 # Instatiates VnSensor Class Object
 sensor = VnSensor()
+
 # Connects Class Object to appropriate COM Port
 sensor.connect(USB_PORT, 115200)
 
@@ -34,9 +61,12 @@ csvoutput = 'IMU_output.csv'
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(ADDR)
 
+# Instatiates IMU_Functions Class Object
 functions = IMU_Functions()
 
-
+#################################################################################
+# Main Loop
+#################################################################################
 with open(csvoutput, 'w') as IMU_data:
     # Establishing headers for the collected data
     fields = ["Yaw", "Pitch", "Roll", "X Accel", "Y Accel", "Z Accel", "X Rate",
@@ -92,3 +122,6 @@ with open(csvoutput, 'w') as IMU_data:
         Q4 = functions.send_data(rows, 18, PACKET_ID, client)
         #time.sleep(0.1)
 sensor.disconnect()
+########################################################################################
+# End of File
+########################################################################################
