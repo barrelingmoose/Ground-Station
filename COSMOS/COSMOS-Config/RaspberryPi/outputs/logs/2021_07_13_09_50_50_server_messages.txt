@@ -1,0 +1,600 @@
+2021/07/13 09:50:49.478  INFO: COSMOS Version: 4.5.0
+2021/07/13 09:50:49.478  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/13 09:50:49.479  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/07/13 09:50:49.483  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_96d24039eefa2db7504c6c906de27b82.bin
+2021/07/13 09:50:49.695  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/13 09:50:49.695  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/13 09:50:49.695  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/07/13 09:50:49.695  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/13 09:50:49.695  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/13 09:50:49.696  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/13 09:50:49.696  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/13 09:50:49.696  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/13 09:50:49.696  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/13 09:50:49.696  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/07/13 09:50:49.697  INFO: Connecting to RASPBERRYPI_INT...
+2021/07/13 09:50:49.697  INFO: RASPBERRYPI_INT Connection Success
+2021/07/13 09:50:49.852  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60690
+2021/07/13 09:50:54.396  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.95.35):60934
+2021/07/13 09:50:54.603  INFO: Log File Opened : /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/logs/2021_07_13_09_50_54_tlm.bin
+2021/07/13 09:51:24.573  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (10.1.95.35):60934
+2021/07/13 09:51:24.632  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.95.35):60934
+2021/07/13 09:52:24.594  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60690
+2021/07/13 09:52:24.692  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60690
+2021/07/13 09:52:29.600  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60696
+2021/07/13 09:53:29.670  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60696
+2021/07/13 09:53:29.754  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60696
+2021/07/13 09:53:34.676  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60698
+2021/07/13 09:54:34.755  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60698
+2021/07/13 09:54:34.819  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60698
+2021/07/13 09:54:39.762  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60702
+2021/07/13 09:55:39.835  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60702
+2021/07/13 09:55:39.887  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60702
+2021/07/13 09:55:41.523  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60704
+2021/07/13 09:55:44.839  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60706
+2021/07/13 09:55:46.747  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.95.35):60936
+2021/07/13 09:56:16.926  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (10.1.95.35):60936
+2021/07/13 09:56:16.953  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.95.35):60936
+2021/07/13 09:56:18.865  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60704
+2021/07/13 09:56:18.899  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60704
+2021/07/13 09:57:16.973  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60706
+2021/07/13 09:57:17.035  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60706
+2021/07/13 09:57:21.978  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60712
+2021/07/13 09:58:22.063  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60712
+2021/07/13 09:58:22.103  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60712
+2021/07/13 09:58:27.067  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60714
+2021/07/13 09:59:27.153  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60714
+2021/07/13 09:59:27.173  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60714
+2021/07/13 09:59:32.159  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60718
+2021/07/13 10:00:32.241  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60718
+2021/07/13 10:00:32.243  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60718
+2021/07/13 10:00:37.247  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60720
+2021/07/13 10:01:37.330  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60720
+2021/07/13 10:01:37.413  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60720
+2021/07/13 10:01:42.336  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60722
+2021/07/13 10:02:42.407  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60722
+2021/07/13 10:02:42.486  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60722
+2021/07/13 10:02:47.413  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60724
+2021/07/13 10:03:47.500  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60724
+2021/07/13 10:03:47.564  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60724
+2021/07/13 10:03:52.506  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60726
+2021/07/13 10:04:52.559  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60726
+2021/07/13 10:04:52.643  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60726
+2021/07/13 10:04:57.563  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60730
+2021/07/13 10:05:57.648  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60730
+2021/07/13 10:05:57.722  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60730
+2021/07/13 10:06:02.650  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60732
+2021/07/13 10:07:02.739  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60732
+2021/07/13 10:07:02.810  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60732
+2021/07/13 10:07:07.745  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60734
+2021/07/13 10:08:07.774  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60734
+2021/07/13 10:08:07.776  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60734
+2021/07/13 10:08:12.775  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60736
+2021/07/13 10:09:12.851  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60736
+2021/07/13 10:09:12.854  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60736
+2021/07/13 10:09:17.857  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60738
+2021/07/13 10:10:17.933  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60738
+2021/07/13 10:10:17.937  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60738
+2021/07/13 10:10:22.939  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60742
+2021/07/13 10:11:23.023  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60742
+2021/07/13 10:11:23.108  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60742
+2021/07/13 10:11:28.029  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60744
+2021/07/13 10:12:28.066  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60744
+2021/07/13 10:12:28.088  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60744
+2021/07/13 10:12:33.068  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60746
+2021/07/13 10:13:33.137  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60746
+2021/07/13 10:13:33.187  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60746
+2021/07/13 10:13:38.140  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60748
+2021/07/13 10:14:38.215  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60748
+2021/07/13 10:14:38.264  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60748
+2021/07/13 10:14:43.219  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60752
+2021/07/13 10:15:43.289  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60752
+2021/07/13 10:15:43.347  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60752
+2021/07/13 10:15:48.293  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60754
+2021/07/13 10:16:48.375  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60754
+2021/07/13 10:16:48.426  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60754
+2021/07/13 10:16:53.382  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60756
+2021/07/13 10:17:53.446  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60756
+2021/07/13 10:17:53.502  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60756
+2021/07/13 10:17:58.452  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60758
+2021/07/13 10:18:58.492  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60758
+2021/07/13 10:18:58.576  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60758
+2021/07/13 10:19:03.498  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60760
+2021/07/13 10:20:03.585  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60760
+2021/07/13 10:20:03.665  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60760
+2021/07/13 10:20:08.591  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60764
+2021/07/13 10:21:08.671  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60764
+2021/07/13 10:21:08.759  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60764
+2021/07/13 10:21:13.675  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60766
+2021/07/13 10:22:13.761  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60766
+2021/07/13 10:22:13.852  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60766
+2021/07/13 10:22:18.767  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60768
+2021/07/13 10:23:18.792  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60768
+2021/07/13 10:23:18.841  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60768
+2021/07/13 10:23:23.798  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60770
+2021/07/13 10:24:23.885  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60770
+2021/07/13 10:24:23.926  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60770
+2021/07/13 10:24:28.891  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60774
+2021/07/13 10:25:28.943  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60774
+2021/07/13 10:25:29.020  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60774
+2021/07/13 10:25:33.949  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60776
+2021/07/13 10:26:34.033  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60776
+2021/07/13 10:26:34.114  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60776
+2021/07/13 10:26:39.039  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60778
+2021/07/13 10:27:39.097  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60778
+2021/07/13 10:27:39.117  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60778
+2021/07/13 10:27:44.102  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60780
+2021/07/13 10:28:44.148  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60780
+2021/07/13 10:28:44.209  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60780
+2021/07/13 10:28:49.155  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60782
+2021/07/13 10:29:49.240  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60782
+2021/07/13 10:29:49.293  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60782
+2021/07/13 10:29:54.246  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60786
+2021/07/13 10:30:54.327  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60786
+2021/07/13 10:30:54.395  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60786
+2021/07/13 10:30:59.333  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60788
+2021/07/13 10:31:59.425  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60788
+2021/07/13 10:31:59.492  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60788
+2021/07/13 10:32:04.431  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60790
+2021/07/13 10:33:04.517  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60790
+2021/07/13 10:33:04.583  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60790
+2021/07/13 10:33:09.523  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60792
+2021/07/13 10:34:09.611  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60792
+2021/07/13 10:34:09.674  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60792
+2021/07/13 10:34:14.617  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60794
+2021/07/13 10:35:14.700  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60794
+2021/07/13 10:35:14.767  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60794
+2021/07/13 10:35:19.703  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60798
+2021/07/13 10:36:19.777  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60798
+2021/07/13 10:36:19.856  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60798
+2021/07/13 10:36:24.783  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60800
+2021/07/13 10:37:24.847  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60800
+2021/07/13 10:37:24.852  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60800
+2021/07/13 10:37:29.850  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60802
+2021/07/13 10:38:29.939  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60802
+2021/07/13 10:38:29.943  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60802
+2021/07/13 10:38:34.945  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60806
+2021/07/13 10:39:35.028  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60806
+2021/07/13 10:39:35.127  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60806
+2021/07/13 10:39:40.034  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60810
+2021/07/13 10:40:40.116  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60810
+2021/07/13 10:40:40.211  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60810
+2021/07/13 10:40:45.122  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60812
+2021/07/13 10:41:45.175  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60812
+2021/07/13 10:41:45.201  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60812
+2021/07/13 10:41:50.181  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60814
+2021/07/13 10:42:50.269  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60814
+2021/07/13 10:42:50.287  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60814
+2021/07/13 10:42:55.275  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60816
+2021/07/13 10:43:55.343  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60816
+2021/07/13 10:43:55.374  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60816
+2021/07/13 10:44:00.349  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60818
+2021/07/13 10:45:00.439  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60818
+2021/07/13 10:45:00.467  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60818
+2021/07/13 10:45:05.443  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60822
+2021/07/13 10:46:05.472  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60822
+2021/07/13 10:46:05.559  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60822
+2021/07/13 10:46:10.476  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60824
+2021/07/13 10:47:10.503  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60824
+2021/07/13 10:47:10.551  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60824
+2021/07/13 10:47:15.506  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60826
+2021/07/13 10:48:15.596  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60826
+2021/07/13 10:48:15.639  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60826
+2021/07/13 10:48:20.599  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60828
+2021/07/13 10:49:20.652  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60828
+2021/07/13 10:49:20.720  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60828
+2021/07/13 10:49:25.658  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60832
+2021/07/13 10:50:25.746  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60832
+2021/07/13 10:50:25.817  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60832
+2021/07/13 10:50:30.752  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60834
+2021/07/13 10:51:30.831  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60834
+2021/07/13 10:51:30.906  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60834
+2021/07/13 10:51:35.837  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60836
+2021/07/13 10:52:35.931  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60836
+2021/07/13 10:52:36.005  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60836
+2021/07/13 10:52:40.937  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60838
+2021/07/13 10:53:40.955  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60838
+2021/07/13 10:53:41.005  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60838
+2021/07/13 10:53:45.962  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60840
+2021/07/13 10:54:46.025  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60840
+2021/07/13 10:54:46.101  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60840
+2021/07/13 10:54:51.031  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60844
+2021/07/13 10:55:51.114  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60844
+2021/07/13 10:55:51.200  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60844
+2021/07/13 10:55:56.117  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60846
+2021/07/13 10:56:56.202  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60846
+2021/07/13 10:56:56.288  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60846
+2021/07/13 10:57:01.208  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60848
+2021/07/13 10:58:01.300  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60848
+2021/07/13 10:58:01.383  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60848
+2021/07/13 10:58:06.306  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60850
+2021/07/13 10:59:06.395  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60850
+2021/07/13 10:59:06.473  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60850
+2021/07/13 10:59:11.401  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60852
+2021/07/13 11:00:11.479  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60852
+2021/07/13 11:00:11.566  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60852
+2021/07/13 11:00:16.483  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60856
+2021/07/13 11:01:16.571  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60856
+2021/07/13 11:01:16.654  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60856
+2021/07/13 11:01:21.578  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60858
+2021/07/13 11:02:21.652  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60858
+2021/07/13 11:02:21.734  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60858
+2021/07/13 11:02:26.658  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60860
+2021/07/13 11:03:26.738  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60860
+2021/07/13 11:03:26.821  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60860
+2021/07/13 11:03:31.743  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60862
+2021/07/13 11:04:31.826  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60862
+2021/07/13 11:04:31.910  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60862
+2021/07/13 11:04:36.833  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60866
+2021/07/13 11:05:36.912  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60866
+2021/07/13 11:05:36.992  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60866
+2021/07/13 11:05:41.916  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60868
+2021/07/13 11:06:41.991  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60868
+2021/07/13 11:06:42.082  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60868
+2021/07/13 11:06:46.997  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60870
+2021/07/13 11:07:47.090  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60870
+2021/07/13 11:07:47.169  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60870
+2021/07/13 11:07:52.096  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60872
+2021/07/13 11:08:52.175  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60872
+2021/07/13 11:08:52.262  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60872
+2021/07/13 11:08:57.179  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60874
+2021/07/13 11:09:57.237  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60874
+2021/07/13 11:09:57.253  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60874
+2021/07/13 11:10:02.243  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60878
+2021/07/13 11:11:02.273  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60878
+2021/07/13 11:11:02.339  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60878
+2021/07/13 11:11:07.276  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60880
+2021/07/13 11:12:07.364  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60880
+2021/07/13 11:12:07.429  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60880
+2021/07/13 11:12:12.370  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60882
+2021/07/13 11:13:12.445  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60882
+2021/07/13 11:13:12.539  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60882
+2021/07/13 11:13:17.451  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60884
+2021/07/13 11:14:17.538  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60884
+2021/07/13 11:14:17.617  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60884
+2021/07/13 11:14:22.544  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60888
+2021/07/13 11:15:22.626  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60888
+2021/07/13 11:15:22.709  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60888
+2021/07/13 11:15:27.631  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60890
+2021/07/13 11:16:27.712  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60890
+2021/07/13 11:16:27.794  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60890
+2021/07/13 11:16:32.718  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60892
+2021/07/13 11:17:32.789  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60892
+2021/07/13 11:17:32.792  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60892
+2021/07/13 11:17:37.791  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60894
+2021/07/13 11:18:37.880  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60894
+2021/07/13 11:18:37.979  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60894
+2021/07/13 11:18:42.886  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60896
+2021/07/13 11:19:42.957  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60896
+2021/07/13 11:19:42.968  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60896
+2021/07/13 11:19:47.963  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60900
+2021/07/13 11:20:48.053  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60900
+2021/07/13 11:20:48.056  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60900
+2021/07/13 11:20:53.059  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60902
+2021/07/13 11:21:53.082  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60902
+2021/07/13 11:21:53.137  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60902
+2021/07/13 11:21:58.088  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60904
+2021/07/13 11:22:58.152  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60904
+2021/07/13 11:22:58.240  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60904
+2021/07/13 11:23:03.158  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60906
+2021/07/13 11:24:03.248  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60906
+2021/07/13 11:24:03.341  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60906
+2021/07/13 11:24:08.254  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60908
+2021/07/13 11:25:08.302  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60908
+2021/07/13 11:25:08.335  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60908
+2021/07/13 11:25:13.305  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60912
+2021/07/13 11:26:13.356  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60912
+2021/07/13 11:26:13.428  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60912
+2021/07/13 11:26:18.362  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60914
+2021/07/13 11:27:18.446  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60914
+2021/07/13 11:27:18.516  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60914
+2021/07/13 11:27:23.452  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60916
+2021/07/13 11:28:23.529  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60916
+2021/07/13 11:28:23.602  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60916
+2021/07/13 11:28:28.535  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60918
+2021/07/13 11:29:28.619  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60918
+2021/07/13 11:29:28.690  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60918
+2021/07/13 11:29:33.625  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60922
+2021/07/13 11:30:33.705  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60922
+2021/07/13 11:30:33.777  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60922
+2021/07/13 11:30:38.711  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60924
+2021/07/13 11:31:38.797  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60924
+2021/07/13 11:31:38.864  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60924
+2021/07/13 11:31:43.803  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60926
+2021/07/13 11:32:43.871  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60926
+2021/07/13 11:32:43.952  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60926
+2021/07/13 11:32:48.877  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60928
+2021/07/13 11:33:48.960  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60928
+2021/07/13 11:33:49.050  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60928
+2021/07/13 11:33:53.966  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60930
+2021/07/13 11:34:54.053  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60930
+2021/07/13 11:34:54.142  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60930
+2021/07/13 11:34:59.059  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60934
+2021/07/13 11:35:59.091  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60934
+2021/07/13 11:35:59.133  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60934
+2021/07/13 11:36:04.094  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60936
+2021/07/13 11:37:04.184  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60936
+2021/07/13 11:37:04.211  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60936
+2021/07/13 11:37:09.190  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60938
+2021/07/13 11:38:09.253  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60938
+2021/07/13 11:38:09.310  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60938
+2021/07/13 11:38:14.259  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60940
+2021/07/13 11:39:14.330  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60940
+2021/07/13 11:39:14.397  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60940
+2021/07/13 11:39:19.336  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60942
+2021/07/13 11:40:19.422  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60942
+2021/07/13 11:40:19.491  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60942
+2021/07/13 11:40:24.428  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60946
+2021/07/13 11:41:24.459  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60946
+2021/07/13 11:41:24.497  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60946
+2021/07/13 11:41:29.464  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60948
+2021/07/13 11:42:29.508  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60948
+2021/07/13 11:42:29.585  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60948
+2021/07/13 11:42:34.514  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60950
+2021/07/13 11:43:34.593  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60950
+2021/07/13 11:43:34.675  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60950
+2021/07/13 11:43:39.599  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60952
+2021/07/13 11:44:39.692  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60952
+2021/07/13 11:44:39.775  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60952
+2021/07/13 11:44:44.698  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60956
+2021/07/13 11:45:44.781  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60956
+2021/07/13 11:45:44.859  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60956
+2021/07/13 11:45:49.786  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60958
+2021/07/13 11:46:49.876  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60958
+2021/07/13 11:46:49.949  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60958
+2021/07/13 11:46:54.882  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60960
+2021/07/13 11:47:54.962  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60960
+2021/07/13 11:47:55.040  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60960
+2021/07/13 11:47:59.968  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60962
+2021/07/13 11:49:00.055  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60962
+2021/07/13 11:49:00.132  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60962
+2021/07/13 11:49:05.061  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60964
+2021/07/13 11:50:05.133  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60964
+2021/07/13 11:50:05.213  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60964
+2021/07/13 11:50:10.136  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60968
+2021/07/13 11:51:10.225  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60968
+2021/07/13 11:51:10.306  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60968
+2021/07/13 11:51:15.231  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60970
+2021/07/13 11:52:15.295  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60970
+2021/07/13 11:52:15.298  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60970
+2021/07/13 11:52:20.301  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60972
+2021/07/13 11:53:20.334  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60972
+2021/07/13 11:53:20.392  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60972
+2021/07/13 11:53:25.340  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60974
+2021/07/13 11:54:25.400  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60974
+2021/07/13 11:54:25.479  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60974
+2021/07/13 11:54:30.406  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60978
+2021/07/13 11:55:30.493  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60978
+2021/07/13 11:55:30.569  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60978
+2021/07/13 11:55:35.499  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60980
+2021/07/13 11:56:35.592  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60980
+2021/07/13 11:56:35.662  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60980
+2021/07/13 11:56:40.598  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60982
+2021/07/13 11:57:40.685  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60982
+2021/07/13 11:57:40.752  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60982
+2021/07/13 11:57:45.691  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60984
+2021/07/13 11:58:45.779  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60984
+2021/07/13 11:58:45.861  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60984
+2021/07/13 11:58:50.783  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60986
+2021/07/13 11:59:50.815  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60986
+2021/07/13 11:59:50.861  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60986
+2021/07/13 11:59:55.821  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60990
+2021/07/13 12:00:55.878  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60990
+2021/07/13 12:00:55.963  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60990
+2021/07/13 12:01:00.885  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60992
+2021/07/13 12:02:00.967  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60992
+2021/07/13 12:02:01.054  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60992
+2021/07/13 12:02:05.973  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60994
+2021/07/13 12:03:06.062  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60994
+2021/07/13 12:03:06.151  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60994
+2021/07/13 12:03:11.067  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60996
+2021/07/13 12:04:11.093  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60996
+2021/07/13 12:04:11.139  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60996
+2021/07/13 12:04:16.099  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):60998
+2021/07/13 12:05:16.188  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):60998
+2021/07/13 12:05:16.242  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):60998
+2021/07/13 12:05:21.194  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32770
+2021/07/13 12:06:21.288  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32770
+2021/07/13 12:06:21.338  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32770
+2021/07/13 12:06:26.290  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32772
+2021/07/13 12:07:26.373  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32772
+2021/07/13 12:07:26.426  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32772
+2021/07/13 12:07:31.379  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32774
+2021/07/13 12:08:31.434  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32774
+2021/07/13 12:08:31.528  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32774
+2021/07/13 12:08:36.440  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32776
+2021/07/13 12:09:36.524  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32776
+2021/07/13 12:09:36.604  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32776
+2021/07/13 12:09:41.531  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32780
+2021/07/13 12:10:41.613  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32780
+2021/07/13 12:10:41.694  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32780
+2021/07/13 12:10:46.619  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32782
+2021/07/13 12:11:46.704  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32782
+2021/07/13 12:11:46.776  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32782
+2021/07/13 12:11:51.710  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32784
+2021/07/13 12:12:51.747  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32784
+2021/07/13 12:12:51.754  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32784
+2021/07/13 12:12:56.751  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32786
+2021/07/13 12:13:56.802  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32786
+2021/07/13 12:13:56.831  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32786
+2021/07/13 12:14:01.809  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32788
+2021/07/13 12:15:01.885  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32788
+2021/07/13 12:15:01.915  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32788
+2021/07/13 12:15:06.891  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32792
+2021/07/13 12:16:06.972  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32792
+2021/07/13 12:16:07.002  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32792
+2021/07/13 12:16:11.975  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32794
+2021/07/13 12:17:12.060  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32794
+2021/07/13 12:17:12.096  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32794
+2021/07/13 12:17:17.066  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32796
+2021/07/13 12:18:17.150  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32796
+2021/07/13 12:18:17.183  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32796
+2021/07/13 12:18:22.156  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32798
+2021/07/13 12:19:22.221  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32798
+2021/07/13 12:19:22.270  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32798
+2021/07/13 12:19:27.224  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32802
+2021/07/13 12:20:27.272  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32802
+2021/07/13 12:20:27.349  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32802
+2021/07/13 12:20:32.279  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32804
+2021/07/13 12:21:32.356  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32804
+2021/07/13 12:21:32.441  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32804
+2021/07/13 12:21:37.359  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32806
+2021/07/13 12:22:37.446  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32806
+2021/07/13 12:22:37.532  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32806
+2021/07/13 12:22:42.451  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32808
+2021/07/13 12:23:42.538  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32808
+2021/07/13 12:23:42.609  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32808
+2021/07/13 12:23:47.541  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32810
+2021/07/13 12:24:47.560  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32810
+2021/07/13 12:24:47.603  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32810
+2021/07/13 12:24:52.566  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32814
+2021/07/13 12:25:52.649  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32814
+2021/07/13 12:25:52.692  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32814
+2021/07/13 12:25:57.655  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32816
+2021/07/13 12:26:57.736  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32816
+2021/07/13 12:26:57.777  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32816
+2021/07/13 12:27:02.742  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32818
+2021/07/13 12:28:02.765  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32818
+2021/07/13 12:28:02.766  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32818
+2021/07/13 12:28:07.771  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32820
+2021/07/13 12:29:07.798  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32820
+2021/07/13 12:29:07.863  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32820
+2021/07/13 12:29:12.803  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32822
+2021/07/13 12:30:12.866  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32822
+2021/07/13 12:30:12.948  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32822
+2021/07/13 12:30:17.872  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32826
+2021/07/13 12:31:17.890  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32826
+2021/07/13 12:31:17.934  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32826
+2021/07/13 12:31:22.896  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32828
+2021/07/13 12:32:22.963  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32828
+2021/07/13 12:32:23.016  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32828
+2021/07/13 12:32:27.969  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32830
+2021/07/13 12:33:28.045  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32830
+2021/07/13 12:33:28.109  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32830
+2021/07/13 12:33:33.051  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32832
+2021/07/13 12:34:33.130  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32832
+2021/07/13 12:34:33.201  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32832
+2021/07/13 12:34:38.137  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32836
+2021/07/13 12:35:38.216  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32836
+2021/07/13 12:35:38.295  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32836
+2021/07/13 12:35:43.222  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32838
+2021/07/13 12:36:43.307  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32838
+2021/07/13 12:36:43.383  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32838
+2021/07/13 12:36:48.311  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32840
+2021/07/13 12:37:48.396  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32840
+2021/07/13 12:37:48.479  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32840
+2021/07/13 12:37:53.402  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32842
+2021/07/13 12:38:53.487  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32842
+2021/07/13 12:38:53.566  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32842
+2021/07/13 12:38:58.491  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32844
+2021/07/13 12:39:58.564  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32844
+2021/07/13 12:39:58.650  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32844
+2021/07/13 12:40:03.568  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32848
+2021/07/13 12:41:03.596  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32848
+2021/07/13 12:41:03.645  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32848
+2021/07/13 12:41:08.602  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32850
+2021/07/13 12:42:08.655  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32850
+2021/07/13 12:42:08.738  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32850
+2021/07/13 12:42:13.659  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32852
+2021/07/13 12:43:13.745  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32852
+2021/07/13 12:43:13.828  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32852
+2021/07/13 12:43:18.751  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32854
+2021/07/13 12:44:18.798  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32854
+2021/07/13 12:44:18.826  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32854
+2021/07/13 12:44:23.804  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32858
+2021/07/13 12:45:23.828  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32858
+2021/07/13 12:45:23.907  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32858
+2021/07/13 12:45:28.834  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32860
+2021/07/13 12:46:28.889  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32860
+2021/07/13 12:46:28.903  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32860
+2021/07/13 12:46:33.893  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32862
+2021/07/13 12:47:33.971  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32862
+2021/07/13 12:47:33.997  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32862
+2021/07/13 12:47:38.977  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32864
+2021/07/13 12:48:39.062  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32864
+2021/07/13 12:48:39.089  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32864
+2021/07/13 12:48:44.068  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32866
+2021/07/13 12:49:44.145  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32866
+2021/07/13 12:49:44.185  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32866
+2021/07/13 12:49:49.151  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32870
+2021/07/13 12:50:49.234  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32870
+2021/07/13 12:50:49.274  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32870
+2021/07/13 12:50:54.240  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32872
+2021/07/13 12:51:54.311  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32872
+2021/07/13 12:51:54.361  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32872
+2021/07/13 12:51:59.315  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32874
+2021/07/13 12:52:59.399  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32874
+2021/07/13 12:52:59.449  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32874
+2021/07/13 12:53:04.405  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32876
+2021/07/13 12:54:04.487  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32876
+2021/07/13 12:54:04.529  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32876
+2021/07/13 12:54:09.493  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32878
+2021/07/13 12:55:09.556  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32878
+2021/07/13 12:55:09.594  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32878
+2021/07/13 12:55:14.563  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32884
+2021/07/13 12:56:14.648  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32884
+2021/07/13 12:56:14.669  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32884
+2021/07/13 12:56:19.655  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32886
+2021/07/13 12:57:19.733  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32886
+2021/07/13 12:57:19.756  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32886
+2021/07/13 12:57:24.739  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32888
+2021/07/13 12:58:24.814  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32888
+2021/07/13 12:58:24.847  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32888
+2021/07/13 12:58:29.818  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32890
+2021/07/13 12:59:29.857  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32890
+2021/07/13 12:59:29.944  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32890
+2021/07/13 12:59:34.863  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32892
+2021/07/13 13:00:34.890  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32892
+2021/07/13 13:00:34.942  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32892
+2021/07/13 13:00:39.897  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32896
+2021/07/13 13:01:39.952  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32896
+2021/07/13 13:01:40.031  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32896
+2021/07/13 13:01:44.954  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32898
+2021/07/13 13:02:45.042  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32898
+2021/07/13 13:02:45.114  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32898
+2021/07/13 13:02:50.048  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32900
+2021/07/13 13:03:50.129  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32900
+2021/07/13 13:03:50.203  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32900
+2021/07/13 13:03:55.135  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32902
+2021/07/13 13:04:55.224  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32902
+2021/07/13 13:04:55.290  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32902
+2021/07/13 13:05:00.230  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32906
+2021/07/13 13:06:00.323  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32906
+2021/07/13 13:06:00.388  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32906
+2021/07/13 13:06:05.329  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32908
+2021/07/13 13:07:05.405  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32908
+2021/07/13 13:07:05.484  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32908
+2021/07/13 13:07:10.412  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32910
+2021/07/13 13:08:10.502  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32910
+2021/07/13 13:08:10.572  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32910
+2021/07/13 13:08:15.509  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32912
+2021/07/13 13:09:15.585  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32912
+2021/07/13 13:09:15.662  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32912
+2021/07/13 13:09:20.591  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32914
+2021/07/13 13:09:47.819  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32918
+2021/07/13 13:09:52.554  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.95.35):60938
+2021/07/13 13:10:22.703  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (10.1.95.35):60938
+2021/07/13 13:10:22.730  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.95.35):60938
+2021/07/13 13:11:22.775  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32918
+2021/07/13 13:11:22.793  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32914
+2021/07/13 13:11:22.845  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32914
+2021/07/13 13:11:22.846  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32918
+2021/07/13 13:11:27.781  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32924
+2021/07/13 13:11:27.795  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):32926
+2021/07/13 13:11:41.437  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32926
+2021/07/13 13:11:41.488  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):32926
+2021/07/13 13:11:46.128  INFO: Log File Closed : /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/logs/2021_07_13_09_50_54_tlm.bin
+2021/07/13 13:11:46.228  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/13 13:11:46.228  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/13 13:11:46.228  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/13 13:11:46.239  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):32924
+2021/07/13 13:11:46.310  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/13 13:11:46.310  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/13 13:11:46.310  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/13 13:11:46.310  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/13 13:11:46.351  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/13 13:11:46.361  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/07/13 13:11:46.361  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/07/13 13:11:46.361  INFO: Connection Lost for RASPBERRYPI_INT
+2021/07/13 13:11:46.453  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/07/13 13:11:46.463  INFO: Disconnected from interface RASPBERRYPI_INT

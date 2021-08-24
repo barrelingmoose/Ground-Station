@@ -1,0 +1,29 @@
+2021/08/17 12:39:35.563  INFO: COSMOS Version: 4.5.0
+2021/08/17 12:39:35.563  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/08/17 12:39:35.564  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/08/17 12:39:35.565  INFO: Marshal file does not exist: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_64b6db3c9efd5154776468783176a36b.bin
+2021/08/17 12:39:35.792  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/08/17 12:39:35.793  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/17 12:39:35.793  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/08/17 12:39:35.793  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/08/17 12:39:35.793  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/08/17 12:39:35.793  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/08/17 12:39:35.793  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/08/17 12:39:35.793  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/08/17 12:39:35.793  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/08/17 12:39:35.793  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/08/17 12:39:35.793  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/17 12:39:35.796  INFO: RASPBERRYPI_INT Connection Success
+2021/08/17 12:40:32.781  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/08/17 12:40:32.782  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/08/17 12:40:32.782  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/08/17 12:40:32.853  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/08/17 12:40:32.863  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/08/17 12:40:32.863  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/17 12:40:32.863  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/08/17 12:40:32.944  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/08/17 12:40:32.954  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/08/17 12:40:32.954  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/08/17 12:40:32.954  INFO: Connection Lost for RASPBERRYPI_INT
+2021/08/17 12:40:33.046  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/08/17 12:40:33.047  INFO: Disconnected from interface RASPBERRYPI_INT

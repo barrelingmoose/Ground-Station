@@ -6,6 +6,7 @@ USER_MODIFIED
 "config/tools/launcher/launcher.txt" 0x6A3047DB
 "config/tools/table_manager/README.txt" 0x93B2C07E
 "config/tools/tlm_viewer/tlm_viewer.txt" 0xD9071527
+"config/tools/tlm_grapher/tlm_grapher_config.txt" 0x9F350D89
 "config/tools/tlm_grapher/README.txt" 0x93B2C07E
 "config/tools/test_runner/test_runner.txt" 0xD24409D2
 "config/tools/tlm_extractor/README.txt" 0x93B2C07E
@@ -51,8 +52,8 @@ USER_MODIFIED
 "config/targets/COSMOS/cmd_tlm/cosmos_server_tlm.txt" 0x00000000
 "config/targets/RASPBERRYPI/cmd_tlm_server.txt" 0x0CDDE471
 "config/targets/RASPBERRYPI/target.txt" 0xA412EE14
-"config/targets/RASPBERRYPI/cmd_tlm/tlm.txt" 0x902E4BC2
-"config/targets/RASPBERRYPI/cmd_tlm/cmd.txt" 0xB1088B51
+"config/targets/RASPBERRYPI/cmd_tlm/tlm.txt" 0x10B9ED02
+"config/targets/RASPBERRYPI/cmd_tlm/cmd.txt" 0x41C6B699
 "config/targets/SYSTEM/target.txt" 0x07E82776
 "config/targets/SYSTEM/cmd_tlm/meta_tlm.txt" 0x07CDABCB
 "tools/OpenGLBuilder.bat" 0x2B98E027
