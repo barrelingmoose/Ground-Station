@@ -1,0 +1,183 @@
+Exception:
+LoadError : Unable to require 0_protocol.rb due to cannot load such file -- 0_protocol.rb. Ensure 0_protocol.rb is in the COSMOS lib directory.
+
+Parsed output in /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+
+Parsed output in /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:660:in `require'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:660:in `require_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:648:in `require_class'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/stream_interface.rb:25:in `initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_client_interface.rb:35:in `initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:146:in `new'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:146:in `block (2 levels) in process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/config/config_parser.rb:200:in `parse_loop'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/config/config_parser.rb:200:in `parse_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:75:in `block in process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:73:in `process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:118:in `block (3 levels) in process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:112:in `each'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:112:in `block (2 levels) in process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/config/config_parser.rb:200:in `parse_loop'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/config/config_parser.rb:200:in `parse_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:75:in `block in process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:73:in `process_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_config.rb:49:in `initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:159:in `new'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:159:in `initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:147:in `new'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:147:in `start'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:136:in `block in initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/splash.rb:109:in `block in execute'
+
+Caller Backtrace:
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/exception_dialog.rb:40:in `initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/splash.rb:119:in `new'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/splash.rb:119:in `block (2 levels) in execute'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:104:in `block in execute_in_main_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:57:in `callback_timeout'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `qt_metacall'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `method_missing'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `exec'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:323:in `block in run'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:646:in `block in run'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:608:in `run'
+./CmdTlmServer:15:in `block in <main>'
+/home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/tools/tool_launch.rb:16:in `tool_launch'
+./CmdTlmServer:13:in `<main>'
+
+Ruby Version: ruby 2.5.8 (2020-03-31 patchlevel 224) [x86_64-linux]
+Rubygems Version: 2.7.6.2
+Cosmos Version: 4.5.0
+Cosmos::PATH: /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0
+Cosmos::USERPATH: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi
+
+Environment:
+RUBYOPT: -r/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.2.17/lib/bundler/setup
+RUBYLIB: /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.2.17/lib:/home/mas/.rbenv/rbenv.d/exec/gem-rehash
+GEM_PATH: /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0:/home/mas/.gem/ruby/2.5.0
+GEMRC: 
+RI_DEVKIT: 
+GEM_HOME: /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0
+PATH: /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/../bin:/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/bin:/home/mas/.rbenv/versions/2.5.8/bin:/home/mas/.rbenv/libexec:/home/mas/.rbenv/plugins/ruby-build/bin:/home/mas/.rbenv/shims:/home/mas/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Ruby Path:
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/lib
+  /home/mas/.rbenv/rbenv.d/exec/gem-rehash
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.2.17/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/ruby-termios-1.1.0/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/extensions/x86_64-linux/2.5.0/ruby-termios-1.1.0
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/extensions/x86_64-linux/2.5.0/cosmos-4.5.0
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/snmp-1.3.2/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rubyzip-1.3.0/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rdoc-6.3.1/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.2.3/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/puma-3.12.6/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/extensions/x86_64-linux/2.5.0/puma-3.12.6
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/pry-doc-0.13.5/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/yard-0.9.26/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/pry-0.14.1/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/opengl-bindings-1.6.11/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/nokogiri-1.11.4-x86_64-linux/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/racc-1.5.2/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/extensions/x86_64-linux/2.5.0/racc-1.5.2
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/json-2.5.1/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/extensions/x86_64-linux/2.5.0/json-2.5.1
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/coderay-1.1.3/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rake-13.0.3/lib
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/site_ruby/2.5.0
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/site_ruby/2.5.0/x86_64-linux
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/site_ruby
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/vendor_ruby/2.5.0
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/vendor_ruby/2.5.0/x86_64-linux
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/vendor_ruby
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/2.5.0
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/2.5.0/x86_64-linux
+  /home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/../lib/2.5
+
+Gems:
+did_you_mean 1.2.0 ruby
+bundler 2.2.17 ruby
+rake 13.0.3 ruby
+coderay 1.1.3 ruby
+httpclient 2.8.3 ruby
+json 2.5.1 ruby
+racc 1.5.2 ruby
+nokogiri 1.11.4 x86_64-linux
+opengl-bindings 1.6.11 ruby
+method_source 1.0.0 ruby
+pry 0.14.1 ruby
+yard 0.9.26 ruby
+pry-doc 0.13.5 ruby
+puma 3.12.6 ruby
+qtbindings 4.8.6.5 ruby
+rack 2.2.3 ruby
+rdoc 6.3.1 ruby
+rubyzip 1.3.0 ruby
+snmp 1.3.2 ruby
+uuidtools 2.2.0 ruby
+cosmos 4.5.0 ruby
+ruby-termios 1.1.0 ruby
+
+All Threads Backtraces:
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:518:in `backtrace'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:518:in `block (2 levels) in write_exception_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:517:in `each'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:517:in `block in write_exception_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/exception_dialog.rb:40:in `initialize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/splash.rb:119:in `new'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/splash.rb:119:in `block (2 levels) in execute'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:104:in `block in execute_in_main_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:57:in `callback_timeout'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `qt_metacall'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `method_missing'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `exec'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:323:in `block in run'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:646:in `block in run'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:608:in `run'
+./CmdTlmServer:15:in `block in <main>'
+/home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/tools/tool_launch.rb:16:in `tool_launch'
+./CmdTlmServer:13:in `<main>'
+
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/utilities/sleeper.rb:27:in `select'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/utilities/sleeper.rb:27:in `sleep'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:487:in `block (2 levels) in redirect_io'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:472:in `loop'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:472:in `block in redirect_io'
+
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `sleep'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `execute_in_main_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/dialogs/splash.rb:118:in `block in execute'
+
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:428:in `sleep'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:428:in `block in process_server_messages'
+
+
+

@@ -1,0 +1,85 @@
+2021/08/24 14:15:49.248  INFO: COSMOS Version: 4.5.0
+2021/08/24 14:15:49.248  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/08/24 14:15:49.249  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/08/24 14:15:49.253  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_6365e5f85370a492745922956f90a200.bin
+2021/08/24 14:15:49.355  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/08/24 14:15:49.356  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:15:49.356  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/08/24 14:15:49.356  INFO: Creating thread for interface HOST
+2021/08/24 14:15:49.356  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 14:15:49.356  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/08/24 14:15:49.360  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/08/24 14:15:49.360  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:15:49.360  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/08/24 14:15:49.360  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/08/24 14:15:49.360  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/08/24 14:15:49.360  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:15:49.360  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/08/24 14:15:49.361  INFO: Starting packet reading for HOST
+2021/08/24 14:15:49.361  INFO: Connecting to HOST...
+2021/08/24 14:15:49.361  INFO: HOST Connection Success
+2021/08/24 14:15:54.366  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:15:54.367  INFO: HOST: Tcpip server accepted connection from (10.1.90.195):54930
+2021/08/24 14:15:54.368  INFO: RASPBERRYPI_INT Connection Success
+2021/08/24 14:16:04.050  INFO: cmd("RASPBERRYPI RWSSPEED with X_SPEED 0, Y_SPEED 0, Z_SPEED 0, X_ENABLE 0, Y_ENABLE 0, Z_ENABLE 0, RWSSPEED 1")
+2021/08/24 14:16:04.050  ERROR: Error reading from interface : StreamInterface
+2021/08/24 14:16:04.051  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/08/24 14:16:04.051  INFO: Connection Lost for RASPBERRYPI_INT
+2021/08/24 14:16:04.051  ERROR: HOST: Tcpip server read thread unexpectedly died
+2021/08/24 14:16:04.051  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:112)
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:520:in `block in read_thread_body'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:519:in `loop'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:519:in `read_thread_body'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:428:in `block in start_read_thread'
+2021/08/24 14:16:04.051  INFO: HOST: Tcpip server lost read connection to (10.1.90.195):54930
+2021/08/24 14:16:04.051  INFO: Log File Opened : /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/logs/2021_08_24_14_16_04_cmd.bin
+2021/08/24 14:16:04.109  INFO: HOST: Tcpip server lost write connection to (10.1.90.195):54930
+2021/08/24 14:16:09.053  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:16:09.053  INFO: RASPBERRYPI_INT Connection Success
+2021/08/24 14:16:09.054  INFO: HOST: Tcpip server accepted connection from (10.1.90.195):54934
+2021/08/24 14:17:12.860  INFO: User disconnecting interface HOST
+2021/08/24 14:17:12.860  INFO: Killing thread for interface HOST
+2021/08/24 14:17:12.860  INFO: Clean disconnect from HOST (returned nil)
+2021/08/24 14:17:12.860  INFO: Connection Lost for HOST
+2021/08/24 14:17:12.861  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/08/24 14:17:12.861  INFO: Connection Lost for RASPBERRYPI_INT
+2021/08/24 14:17:12.861  INFO: HOST: Tcpip server lost read connection to (10.1.90.195):54934
+2021/08/24 14:17:12.901  INFO: Stopped packet reading for HOST
+2021/08/24 14:17:12.901  INFO: Disconnected from interface HOST
+2021/08/24 14:17:17.866  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:17:17.867  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/08/24 14:17:20.480  INFO: User connecting interface HOST
+2021/08/24 14:17:20.480  INFO: Creating thread for interface HOST
+2021/08/24 14:17:20.480  INFO: Starting packet reading for HOST
+2021/08/24 14:17:20.480  INFO: Connecting to HOST...
+2021/08/24 14:17:20.481  INFO: HOST Connection Success
+2021/08/24 14:17:22.868  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:17:22.869  INFO: RASPBERRYPI_INT Connection Success
+2021/08/24 14:17:22.869  INFO: HOST: Tcpip server accepted connection from (10.1.90.195):54938
+2021/08/24 14:17:28.130  INFO: Log File Closed : /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/logs/2021_08_24_14_16_04_cmd.bin
+2021/08/24 14:17:28.230  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/08/24 14:17:28.230  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/08/24 14:17:28.230  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/08/24 14:17:28.250  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 14:17:28.261  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/08/24 14:17:28.261  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:17:28.261  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:17:28.352  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:17:28.362  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/08/24 14:17:28.363  INFO: HOST: Tcpip server lost read connection to (10.1.90.195):54938
+2021/08/24 14:17:28.363  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/08/24 14:17:28.363  INFO: Connection Lost for RASPBERRYPI_INT
+2021/08/24 14:17:28.363  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/08/24 14:17:28.363  INFO: Disconnected from interface RASPBERRYPI_INT
+2021/08/24 14:17:28.363  INFO: Killing thread for interface HOST
+2021/08/24 14:17:28.363  INFO: Clean disconnect from HOST (returned nil)
+2021/08/24 14:17:28.363  INFO: Connection Lost for HOST
+2021/08/24 14:17:28.404  INFO: Stopped packet reading for HOST
+2021/08/24 14:17:28.404  INFO: Disconnected from interface HOST

@@ -1,0 +1,49 @@
+2021/08/24 14:18:17.130  INFO: COSMOS Version: 4.5.0
+2021/08/24 14:18:17.130  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/08/24 14:18:17.130  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/08/24 14:18:17.135  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_6365e5f85370a492745922956f90a200.bin
+2021/08/24 14:18:17.237  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/08/24 14:18:17.237  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:18:17.238  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/08/24 14:18:17.242  INFO: Creating thread for interface HOST
+2021/08/24 14:18:17.242  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 14:18:17.242  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/08/24 14:18:17.243  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/08/24 14:18:17.243  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:18:17.243  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/08/24 14:18:17.243  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/08/24 14:18:17.275  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/08/24 14:18:17.275  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:18:17.276  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/08/24 14:18:17.390  INFO: Starting packet reading for HOST
+2021/08/24 14:18:17.390  INFO: Connecting to HOST...
+2021/08/24 14:18:17.390  INFO: HOST Connection Success
+2021/08/24 14:18:17.416  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51014
+2021/08/24 14:18:22.396  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 14:18:22.396  INFO: HOST: Tcpip server accepted connection from (10.1.90.195):55000
+2021/08/24 14:18:22.397  INFO: RASPBERRYPI_INT Connection Success
+2021/08/24 14:18:23.527  INFO: HOST: Tcpip server accepted connection from (10.1.91.144):45380
+2021/08/24 14:19:17.538  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51014
+2021/08/24 14:19:17.604  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51014
+2021/08/24 14:19:22.541  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51040
+2021/08/24 14:19:35.134  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/08/24 14:19:35.135  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/08/24 14:19:35.135  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/08/24 14:19:35.135  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51040
+2021/08/24 14:19:35.146  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 14:19:35.155  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/08/24 14:19:35.155  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:19:35.155  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:19:35.247  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:19:35.257  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/08/24 14:19:35.257  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/08/24 14:19:35.257  INFO: Connection Lost for RASPBERRYPI_INT
+2021/08/24 14:19:35.258  INFO: HOST: Tcpip server lost read connection to (10.1.90.195):55000
+2021/08/24 14:19:35.258  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/08/24 14:19:35.268  INFO: Disconnected from interface RASPBERRYPI_INT
+2021/08/24 14:19:35.268  INFO: Killing thread for interface HOST
+2021/08/24 14:19:35.268  INFO: Clean disconnect from HOST (returned nil)
+2021/08/24 14:19:35.268  INFO: Connection Lost for HOST
+2021/08/24 14:19:35.268  INFO: HOST: Tcpip server lost read connection to (10.1.91.144):45380
+2021/08/24 14:19:35.350  INFO: Stopped packet reading for HOST
+2021/08/24 14:19:35.360  INFO: Disconnected from interface HOST

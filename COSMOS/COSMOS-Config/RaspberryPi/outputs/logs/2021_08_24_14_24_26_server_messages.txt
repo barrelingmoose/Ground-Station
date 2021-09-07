@@ -1,0 +1,31 @@
+2021/08/24 14:24:25.698  INFO: COSMOS Version: 4.5.0
+2021/08/24 14:24:25.698  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/08/24 14:24:25.699  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/08/24 14:24:25.703  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_6365e5f85370a492745922956f90a200.bin
+2021/08/24 14:24:25.807  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/08/24 14:24:25.807  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:24:25.807  INFO: Creating thread for interface HOST
+2021/08/24 14:24:25.812  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 14:24:25.812  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/08/24 14:24:25.812  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/08/24 14:24:25.812  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:24:25.812  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/08/24 14:24:25.812  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/08/24 14:24:25.812  INFO: Starting packet reading for HOST
+2021/08/24 14:24:25.812  INFO: Connecting to HOST...
+2021/08/24 14:24:25.813  INFO: HOST Connection Success
+2021/08/24 14:24:25.942  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51176
+2021/08/24 14:24:54.563  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/08/24 14:24:54.563  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/08/24 14:24:54.563  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/08/24 14:24:54.564  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51176
+2021/08/24 14:24:54.615  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 14:24:54.625  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/08/24 14:24:54.625  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:24:54.625  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:24:54.716  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 14:24:54.726  INFO: Killing thread for interface HOST
+2021/08/24 14:24:54.727  INFO: Clean disconnect from HOST (returned nil)
+2021/08/24 14:24:54.727  INFO: Connection Lost for HOST
+2021/08/24 14:24:54.818  INFO: Stopped packet reading for HOST
+2021/08/24 14:24:54.818  INFO: Disconnected from interface HOST

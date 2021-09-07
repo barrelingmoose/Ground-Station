@@ -1,0 +1,38 @@
+2021/09/02 09:43:20.680  INFO: COSMOS Version: 4.5.0
+2021/09/02 09:43:20.680  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/09/02 09:43:20.681  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/09/02 09:43:20.684  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_6365e5f85370a492745922956f90a200.bin
+2021/09/02 09:43:20.792  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/09/02 09:43:20.792  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/09/02 09:43:20.792  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/09/02 09:43:20.792  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/09/02 09:43:20.792  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/09/02 09:43:20.793  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/09/02 09:43:20.793  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/09/02 09:43:20.793  INFO: Connecting to RASPBERRYPI_INT...
+2021/09/02 09:43:20.793  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/09/02 09:43:20.794  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/09/02 09:43:20.794  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/09/02 09:43:20.794  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/09/02 09:43:20.942  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51858
+2021/09/02 09:43:25.798  INFO: Connecting to RASPBERRYPI_INT...
+2021/09/02 09:43:25.798  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/09/02 09:43:30.802  INFO: Connecting to RASPBERRYPI_INT...
+2021/09/02 09:43:30.802  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/09/02 09:43:35.805  INFO: Connecting to RASPBERRYPI_INT...
+2021/09/02 09:43:35.806  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/09/02 09:43:39.818  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51858
+2021/09/02 09:43:39.888  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51858
+2021/09/02 09:43:40.810  INFO: Connecting to RASPBERRYPI_INT...
+2021/09/02 09:43:40.810  ERROR: RASPBERRYPI_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 10.1.90.195:6787
+2021/09/02 09:43:42.812  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/09/02 09:43:42.812  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/09/02 09:43:42.812  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/09/02 09:43:42.903  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/09/02 09:43:42.913  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/09/02 09:43:42.913  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/09/02 09:43:42.913  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/09/02 09:43:43.005  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/09/02 09:43:43.015  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/09/02 09:43:43.015  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/09/02 09:43:43.025  INFO: Disconnected from interface RASPBERRYPI_INT

@@ -1,0 +1,106 @@
+2021/08/24 13:21:04.016  INFO: COSMOS Version: 4.5.0
+2021/08/24 13:21:04.016  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/08/24 13:21:04.017  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/08/24 13:21:04.021  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_6365e5f85370a492745922956f90a200.bin
+2021/08/24 13:21:04.124  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/08/24 13:21:04.124  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 13:21:04.124  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/08/24 13:21:04.124  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 13:21:04.124  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/08/24 13:21:04.124  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/08/24 13:21:04.124  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 13:21:04.124  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/08/24 13:21:04.127  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/08/24 13:21:04.127  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/08/24 13:21:04.127  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 13:21:04.127  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+2021/08/24 13:21:04.127  ERROR: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:318:in `rescue in start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:315:in `start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:120:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/08/24 13:21:09.129  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 13:21:09.129  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+2021/08/24 13:21:09.129  ERROR: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:318:in `rescue in start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:315:in `start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:120:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/08/24 13:21:13.233  INFO: User disconnecting interface RASPBERRYPI_INT
+2021/08/24 13:21:13.233  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/08/24 13:21:13.233  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/08/24 13:21:13.243  INFO: Disconnected from interface RASPBERRYPI_INT
+2021/08/24 13:21:31.554  INFO: User connecting interface RASPBERRYPI_INT
+2021/08/24 13:21:31.554  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/08/24 13:21:31.555  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/08/24 13:21:31.555  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 13:21:31.555  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+2021/08/24 13:21:31.555  ERROR: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:318:in `rescue in start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:315:in `start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:120:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/08/24 13:21:36.559  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 13:21:36.559  ERROR: RASPBERRYPI_INT Connection Failed: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+2021/08/24 13:21:36.560  ERROR: RuntimeError : Error binding to port 6787.
+Either another application is using this port
+or the operating system is being slow cleaning up.
+Make sure all sockets/streams are closed in all applications,
+wait 1 minute and try again.
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:318:in `rescue in start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:315:in `start_listen_thread'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:120:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/home/mas/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/08/24 13:21:37.352  INFO: User disconnecting interface RASPBERRYPI_INT
+2021/08/24 13:21:37.352  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/08/24 13:21:37.352  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/08/24 13:21:37.363  INFO: Disconnected from interface RASPBERRYPI_INT
+2021/08/24 13:21:40.777  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/08/24 13:21:40.777  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/08/24 13:21:40.777  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/08/24 13:21:40.818  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 13:21:40.828  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/08/24 13:21:40.829  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 13:21:40.829  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 13:21:40.921  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 13:21:40.931  INFO: Disconnected from interface RASPBERRYPI_INT

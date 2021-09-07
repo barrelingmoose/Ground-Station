@@ -1,0 +1,51 @@
+2021/08/24 10:32:22.738  INFO: COSMOS Version: 4.5.0
+2021/08/24 10:32:22.738  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/08/24 10:32:22.739  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/08/24 10:32:22.742  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_6365e5f85370a492745922956f90a200.bin
+2021/08/24 10:32:22.843  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/08/24 10:32:22.843  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 10:32:22.844  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/08/24 10:32:22.844  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 10:32:22.844  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/08/24 10:32:22.844  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/08/24 10:32:22.844  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 10:32:22.844  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/08/24 10:32:22.850  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/08/24 10:32:22.850  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/08/24 10:32:22.850  INFO: Connecting to RASPBERRYPI_INT...
+2021/08/24 10:32:22.850  INFO: RASPBERRYPI_INT Connection Success
+2021/08/24 10:32:23.015  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):49958
+2021/08/24 10:32:27.633  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.91.144):44956
+2021/08/24 10:32:27.655  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (10.1.91.144):44956
+2021/08/24 10:32:27.699  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.91.144):44956
+2021/08/24 10:33:23.173  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):49958
+2021/08/24 10:33:23.228  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):49958
+2021/08/24 10:33:28.179  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):49966
+2021/08/24 10:34:28.262  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):49966
+2021/08/24 10:34:28.351  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):49966
+2021/08/24 10:34:33.265  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):49984
+2021/08/24 10:34:58.761  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):49988
+2021/08/24 10:35:03.783  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.91.144):44968
+2021/08/24 10:35:04.786  ERROR: StreamInterface: Timeout waiting for data to be read
+2021/08/24 10:35:04.786  INFO: RASPBERRYPI_INT: Tcpip server lost read connection to (10.1.91.144):44968
+2021/08/24 10:35:04.823  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.91.144):44968
+2021/08/24 10:35:10.089  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):49988
+2021/08/24 10:35:10.135  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):49988
+2021/08/24 10:35:33.347  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):49984
+2021/08/24 10:35:33.381  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):49984
+2021/08/24 10:35:38.350  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):49998
+2021/08/24 10:36:06.325  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):49998
+2021/08/24 10:36:06.346  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):49998
+2021/08/24 10:36:11.467  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/08/24 10:36:11.467  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/08/24 10:36:11.467  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/08/24 10:36:11.568  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/08/24 10:36:11.568  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/08/24 10:36:11.569  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 10:36:11.569  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/08/24 10:36:11.660  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/08/24 10:36:11.671  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/08/24 10:36:11.671  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/08/24 10:36:11.671  INFO: Connection Lost for RASPBERRYPI_INT
+2021/08/24 10:36:11.763  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/08/24 10:36:11.773  INFO: Disconnected from interface RASPBERRYPI_INT
