@@ -1,0 +1,43 @@
+2021/09/07 14:16:42.408  INFO: COSMOS Version: 4.5.0
+2021/09/07 14:16:42.408  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/09/07 14:16:42.408  INFO: Processing CmdTlmServer configuration in file: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/config/targets/RASPBERRYPI/cmd_tlm_server.txt
+2021/09/07 14:16:42.413  INFO: Marshal load success: /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/tmp/marshal_72b76a100549ca4f1e27ef08c7a60f75.bin
+2021/09/07 14:16:42.516  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/09/07 14:16:42.516  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/09/07 14:16:42.516  INFO: Creating thread for interface RASPBERRYPI_INT
+2021/09/07 14:16:42.520  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/09/07 14:16:42.520  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/09/07 14:16:42.520  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/09/07 14:16:42.520  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/09/07 14:16:42.520  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/09/07 14:16:42.520  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/09/07 14:16:42.555  INFO: Starting packet reading for RASPBERRYPI_INT
+2021/09/07 14:16:42.555  INFO: Connecting to RASPBERRYPI_INT...
+2021/09/07 14:16:42.556  INFO: RASPBERRYPI_INT Connection Success
+2021/09/07 14:16:42.671  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):56708
+2021/09/07 14:16:47.653  INFO: RASPBERRYPI_INT: Tcpip server accepted connection from (10.1.94.79):56808
+2021/09/07 14:16:56.511  INFO: cmd("RASPBERRYPI RWSSPEED with HEADER 2, X_SPEED 500, Y_SPEED 0, Z_SPEED 0, X_ENABLE 1, Y_ENABLE 0, Z_ENABLE 0, RWSSPEED 1")
+2021/09/07 14:16:56.512  INFO: Log File Opened : /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/logs/2021_09_07_14_16_56_cmd.bin
+2021/09/07 14:17:13.044  INFO: cmd("RASPBERRYPI RWSSPEED with HEADER 2, X_SPEED 0, Y_SPEED 0, Z_SPEED 0, X_ENABLE 1, Y_ENABLE 0, Z_ENABLE 0, RWSSPEED 1")
+2021/09/07 14:17:30.423  INFO: cmd("RASPBERRYPI RWSSPEED with HEADER 2, X_SPEED 1000, Y_SPEED 0, Z_SPEED 0, X_ENABLE 1, Y_ENABLE 0, Z_ENABLE 0, RWSSPEED 1")
+2021/09/07 14:17:42.669  INFO: cmd("RASPBERRYPI RWSSPEED with HEADER 2, X_SPEED 0, Y_SPEED 0, Z_SPEED 0, X_ENABLE 1, Y_ENABLE 0, Z_ENABLE 0, RWSSPEED 1")
+2021/09/07 14:17:42.770  INFO: RASPBERRYPI_INT: Tcpip server lost write connection to (10.1.94.79):56808
+2021/09/07 14:17:42.811  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):56708
+2021/09/07 14:17:42.820  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):56708
+2021/09/07 14:17:47.815  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):56722
+2021/09/07 14:17:52.180  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):56722
+2021/09/07 14:17:52.240  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):56722
+2021/09/07 14:18:16.950  INFO: Log File Closed : /home/mas/Ground-Station/COSMOS/COSMOS-Config/RaspberryPi/outputs/logs/2021_09_07_14_16_56_cmd.bin
+2021/09/07 14:18:17.050  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/09/07 14:18:17.051  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/09/07 14:18:17.051  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/09/07 14:18:17.102  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/09/07 14:18:17.102  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/09/07 14:18:17.102  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/09/07 14:18:17.102  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/09/07 14:18:17.194  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/09/07 14:18:17.204  INFO: Killing thread for interface RASPBERRYPI_INT
+2021/09/07 14:18:17.205  INFO: Clean disconnect from RASPBERRYPI_INT (returned nil)
+2021/09/07 14:18:17.205  INFO: Connection Lost for RASPBERRYPI_INT
+2021/09/07 14:18:17.296  INFO: Stopped packet reading for RASPBERRYPI_INT
+2021/09/07 14:18:17.297  INFO: Disconnected from interface RASPBERRYPI_INT

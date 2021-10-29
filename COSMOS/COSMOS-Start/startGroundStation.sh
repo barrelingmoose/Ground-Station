@@ -12,7 +12,7 @@ echo "Running startGroundStation.sh"
 # username to flight computer
 username=pi
 # ip address to flight computer
-ip_address=10.1.94.79
+ip_address=10.1.91.250
 # command to run the flight computers main script
 run_fc_script='python3 COSMOS/main.py'
 # password to flight computer for sshpass
